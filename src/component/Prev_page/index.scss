@@ -1,0 +1,14 @@
+.prev {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    z-index: 5;
+    right: 38px;
+    top: 20px;
+    padding: 6px 15px;
+    background: #3aa298;
+    border: none;
+    border-radius: 16px;
+    color: white;
+    box-shadow: #105249 1px 4px;
+}
