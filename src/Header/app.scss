@@ -10,6 +10,10 @@
     }
 }
 
+.mt {
+    margin-top: 50px;
+}
+
 .imageContainer {
     width: 100vw;
     position: relative;
@@ -143,6 +147,17 @@
     }
 }
 
+.getPoint {
+    & div:nth-child(2) {
+        position: absolute;
+        background-color: black;
+        width: 50%;
+        height: 35%;
+        top: 12%;
+        opacity: 0.5;
+    }
+}
+
 .container {
     width: 100%;
     overflow: hidden;
@@ -209,21 +224,6 @@
         }
     }
 
-    .prev {
-        position: fixed;
-        display: flex;
-        align-items: center;
-        z-index: 5;
-        right: 38px;
-        top: 20px;
-        padding: 6px 15px;
-        background: #3aa298;
-        border: none;
-        border-radius: 16px;
-        color: white;
-        box-shadow: #105249 1px 4px;
-    }
-
     .fixed {
         position: fixed;
         display: flex;
@@ -237,8 +237,8 @@
         z-index: 5;
         border-radius: 60px 60px 60px 60px;
         margin-right: 10px;
-        background: -webkit-linear-gradient(299deg, #fcc300, #985d05);
-        box-shadow: #653e05 5px 5px;
+        background: -webkit-linear-gradient(299deg, #dfa43c, #9d551c);
+        box-shadow: #653e05 4px 5px;
         &.fixedActive {
             right: -20%;
         }
@@ -267,7 +267,7 @@
 
             &.active,
             &:hover {
-                background: #985d05;
+                background: #9f571d;
                 width: 120px;
             }
 
@@ -294,9 +294,11 @@
         }
 
         .top {
-            width: 150px;
-            height: 120px;
+            width: 50px;
+            height: 50px;
             cursor: pointer;
+            position: absolute;
+            top: -20px;
 
             @include ipad {
                 width: 60px;

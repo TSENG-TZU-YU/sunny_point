@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
 import './app.scss';
-// import top1 from './assets/top1.jpg';
+import top from '../assets/one/點數活動頁5-01.png';
+import topStar from '../assets/one/點數活動頁5-27.png';
 // import top2 from './assets/top2.jpg';
-// import one from './assets/one.jpg';
-// import two from './assets/two.jpg';
-// import three from './assets/three.jpg';
+// import one from '../assets/one/點數活動頁5-03.png';
+import one_app from '../assets/one/點數活動頁5-03.png';
+// import pop from '../assets/one/點數活動頁5-04.png';
+import two from '../assets/one/點數活動頁5-05.png';
+import three from '../assets/one/點數活動頁5-06.png';
 // import four from './assets/four.jpg';
 // import five1 from './assets/five1.jpg';
 // import five2 from './assets/five2.jpg';
@@ -14,7 +17,9 @@ import { Link, animateScroll } from 'react-scroll';
 import { AiOutlineLeft } from 'react-icons/ai';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
-import { IoIosArrowForward, IoIosArrowDown } from 'react-icons/io';
+import { IoIosArrowDown } from 'react-icons/io';
+
+import PrevPage from '../component/Prev_page';
 
 function Header() {
     var scroll = animateScroll;
@@ -23,14 +28,15 @@ function Header() {
 
     return (
         <div id="container" className="container">
-            <a href="https://www.sunnygo.com.tw/web-front/#/activePanel?id=7" className="prev">
-                回上一頁
-                <IoIosArrowForward />
+            <a href="https://www.sunnygo.com.tw/web-front/#/activePanel?id=7">
+                <PrevPage />
             </a>
 
             <div className={show ? 'fixed' : 'fixed fixedActive'}>
                 {/* <div onClick={handleShow('hide')} className="top"></div> */}
+
                 <div onClick={handleShow('hide')} className="fixedItem">
+                    <LazyLoadImage className="top" src={topStar} alt="" />
                     Sunny
                     <br />
                     Point
@@ -43,7 +49,7 @@ function Header() {
                     className="fixedItem"
                     activeClass="fixedItem active"
                 >
-                    滿額送
+                    賞利點介紹
                 </Link>
                 <Link
                     href="#two"
@@ -53,7 +59,7 @@ function Header() {
                     className="fixedItem"
                     activeClass="fixedItem active"
                 >
-                    滿額折
+                    賞利點集點
                 </Link>
                 <Link
                     href="#three"
@@ -63,7 +69,7 @@ function Header() {
                     className="fixedItem"
                     activeClass="fixedItem active"
                 >
-                    滿額抽
+                    賞利點兌換
                 </Link>
                 <Link
                     href="#four"
@@ -73,7 +79,7 @@ function Header() {
                     className="fixedItem"
                     activeClass="fixedItem active"
                 >
-                    買就送
+                    下載APP
                 </Link>
                 <Link
                     href="#five"
@@ -83,7 +89,7 @@ function Header() {
                     className="fixedItem"
                     activeClass="fixedItem active"
                 >
-                    加碼送
+                    點數規則
                 </Link>
                 <div
                     onClick={() => {
@@ -94,56 +100,50 @@ function Header() {
                     ▲TOP
                 </div>
             </div>
-            <div onClick={handleShow('show')} className={show ? 'fixed2 fixedActive ' : 'fixed2 '}>
-                <AiOutlineLeft /> 快速導覽
+
+            <div className="imageContainer">
+                <img src={top} alt="" />
             </div>
 
-            <div className="pointBox">
-                <div className="text">Q1:賞力點</div>
-                <div className="containBox">
-                    <IoIosArrowDown size={30} />
-                </div>
-            </div>
-
-            {/* <div className="imageContainer">
-                <img src={top1} alt="" />
-            </div> */}
-            {/* <div className="imageContainer">
-                <a className="top2href1" href="https://www.sunnygo.com.tw/web-front/#/activePanel?id=12"></a>
-                <Link className="top2href2" href="#one" to="one" spy={true} smooth={true}></Link>
+            <div className="imageContainer">
+                {/* <a className="top2href1" href="https://www.sunnygo.com.tw/web-front/#/activePanel?id=12"></a> */}
+                {/* <Link className="top2href2" href="#one" to="one" spy={true} smooth={true}></Link>
                 <Link className="top2href3" href="#two" to="two" spy={true} smooth={true}></Link>
                 <Link className="top2href4" href="#three" to="three" spy={true} smooth={true}></Link>
                 <Link className="top2href5" href="#four" to="four" spy={true} smooth={true}></Link>
                 <Link className="top2href6" href="#five" to="five" spy={true} smooth={true}></Link>
                 <Link className="top2href7" href="#five2" to="five2" spy={true} smooth={true}></Link>
                 <Link className="top2href8" href="#five3" to="five3" spy={true} smooth={true}></Link>
-                <Link className="top2href9" href="#five3" to="five3" spy={true} smooth={true}></Link>
+                <Link className="top2href9" href="#five3" to="five3" spy={true} smooth={true}></Link> */}
 
-                <img src={top2} alt="" />
-            </div> */}
-
-            {/* <div id="one" name="one" className="imageContainer">
-                <LazyLoadImage src={one} alt="" />
-                <a className="href1" href="https://lihi2.cc/8G8SG">
-                    {' '}
-                </a>
+                {/* <img src={top2} alt="" /> */}
             </div>
-            <div id="two" name="two" className="imageContainer">
+
+            <div id="one" name="one" className="imageContainer">
+                <div>
+                    <LazyLoadImage src={one_app} alt="" />
+                </div>
+            </div>
+            <div id="two" name="two" className="imageContainer getPoint">
                 <LazyLoadImage src={two} alt="" />
+                <div>
+                    <Link href="https://www.sunnygo.com.tw/web-front/registerPage/fillPhone"></Link>
+                </div>
+                {/* <Link href="https://www.sunnygo.com.tw/web-front/registerPage/fillPhone"></Link> */}
+                {/* <a className="getPoint" href="https://www.sunnygo.com.tw/web-front/registerPage/fillPhone" alt=""></a> */}
             </div>
-            <div id="three" name="three" className="imageContainer">
+
+            <div id="three" name="three" className="imageContainer mt">
                 <LazyLoadImage src={three} alt="" />
             </div>
             <div id="four" name="four" className="imageContainer">
-                <LazyLoadImage src={four} alt="" />
-                <a className="href2" href="https://www.sunnygo.com.tw/web-front/#/productDetails?id=232632" alt="">
-                    {' '}
-                </a>
+                {/* <LazyLoadImage src={four} alt="" /> */}
+                {/* <a className="href2" href="https://www.sunnygo.com.tw/web-front/#/productDetails?id=232632" alt=""></a> */}
             </div>
             <div id="five" name="five" className="imageContainer">
-                <LazyLoadImage id="five1" src={five1} alt="" />
+                {/* <LazyLoadImage id="five1" src={five1} alt="" />
                 <LazyLoadImage id="five2" src={five2} alt="" />
-                <LazyLoadImage id="five3" src={five3} alt="" />
+                <LazyLoadImage id="five3" src={five3} alt="" /> */}
                 <a className="href3" href="https://www.sunnygo.com.tw/web-front/#/store/sunnyfan" alt="/">
                     {' '}
                 </a>
@@ -167,7 +167,17 @@ function Header() {
                 >
                     {' '}
                 </a>
-            </div> */}
+            </div>
+            <div onClick={handleShow('show')} className={show ? 'fixed2 fixedActive ' : 'fixed2 '}>
+                <AiOutlineLeft /> 快速導覽
+            </div>
+
+            <div className="pointBox">
+                <div className="text">Q1:賞力點</div>
+                <div className="containBox">
+                    <IoIosArrowDown size={30} />
+                </div>
+            </div>
         </div>
     );
 }
