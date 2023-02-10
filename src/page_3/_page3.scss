@@ -1,5 +1,38 @@
-.aa{
-    .bb{
-        color: lightcoral;
+.page3 {
+    position: relative;
+    .click {
+        position: absolute;
+        top: 26.7%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 290px;
+        height: 60px;
+        background: lightcoral;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: height 0.6s ease;
     }
+    .top {
+        top: 91.7%;
+    }
+    // .expandUp {
+    //     height: 0px;
+    // }
+    // .expandDown {
+    //     height: 100%;
+    // }
+    .expandUp {
+        opacity: 0;
+        height: 0;
+        visibility: hidden;
+        background-color: transparent;
+        transition: all 0.2s ease-in;
+      }
+      .expandDown {
+        opacity: 1;
+        height: 100%;
+        visibility: visible;
+        transition: all 0.2s ease-in;
+        background-color: rgba(0,0,0, .1);
+      }
 }
