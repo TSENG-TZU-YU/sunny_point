@@ -127,11 +127,10 @@ function Header() {
             <div id="two" name="two" className="imageContainer getPoint">
                 <LazyLoadImage src={two} alt="" />
                 <div>
-                    <Link
-                        href="https://www.sunnygo.com.tw/web-front/registerPage/fillPhone"
-                        className="getPoint"
-                    >111111</Link>
+                    <Link href="https://www.sunnygo.com.tw/web-front/registerPage/fillPhone"></Link>
                 </div>
+                {/* <Link href="https://www.sunnygo.com.tw/web-front/registerPage/fillPhone"></Link> */}
+                {/* <a className="getPoint" href="https://www.sunnygo.com.tw/web-front/registerPage/fillPhone" alt=""></a> */}
             </div>
 
             <div id="three" name="three" className="imageContainer mt">
