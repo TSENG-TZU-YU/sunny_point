@@ -1,0 +1,62 @@
+html {
+    scroll-behavior: smooth;
+}
+.page4 {
+    .onePage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 5px;
+        background: #3683cb;
+        .title {
+            position: relative;
+            font-size: 32px;
+            font-weight: 600;
+            &::before {
+                position: absolute;
+                content: '';
+                width: 430px;
+                height: 45px;
+                border-top: 2px solid #fff;
+                border-left: 2px solid #fff;
+                top: 50%;
+                left: -172%;
+                color: #000;
+            }
+            &::after {
+                position: absolute;
+                content: '';
+                width: 413px;
+                height: 45px;
+                border-top: 2px solid #fff;
+                border-right: 2px solid #fff;
+                top: 50%;
+                left: 103%;
+            }
+        }
+        .click {
+            display: flex;
+            align-items: center;
+            margin-top: 45px;
+            .clickBtn {
+                background: #c9dcbf;
+                border-radius: 100px;
+                width: 330px;
+                height: 65px;
+                margin: 0 15px;
+                cursor: pointer;
+                z-index: 10;
+            }
+        }
+    }
+    .one {
+        background: #3683cb;
+    }
+    .two {
+        background: #5fba55;
+    }
+    .three {
+        background: #52b2d5;
+    }
+}

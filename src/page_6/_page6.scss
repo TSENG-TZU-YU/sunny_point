@@ -1,0 +1,56 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.page6 {
+    position: relative;
+    .onePage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: #f6c896;
+        // .title {
+        //     position: relative;
+        //     font-size: 32px;
+        //     font-weight: 600;
+        //     &::before {
+        //         position: absolute;
+        //         content: '';
+        //         width: 430px;
+        //         height: 45px;
+        //         border-top: 2px solid #fff;
+        //         border-left: 2px solid #fff;
+        //         top: 50%;
+        //         left: -172%;
+        //         color: #000;
+        //     }
+        //     &::after {
+        //         position: absolute;
+        //         content: '';
+        //         width: 413px;
+        //         height: 45px;
+        //         border-top: 2px solid #fff;
+        //         border-right: 2px solid #fff;
+        //         top: 50%;
+        //         left: 103%;
+        //     }
+        // }
+        .click {
+            display: flex;
+            align-items: center;
+            // margin-top: 40px;
+            .clickBtn {
+                width: 330px;
+                margin: 0 15px;
+                cursor: pointer;
+                z-index: 10;
+            }
+        }
+    }
+    .three {
+        position: absolute;
+        bottom: 26%;
+    }
+}
+

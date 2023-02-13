@@ -1,0 +1,16 @@
+.toTop {
+    position: fixed;
+    padding: 15px 10px;
+    background: #0000005c;
+    border-radius: 50%;
+    right: 0.5%;
+    bottom: 1%;
+    cursor: pointer;
+    a,
+    a:visited,
+    a:hover,
+    a:active {
+        color: #fff;
+        text-decoration: none;
+    }
+}
