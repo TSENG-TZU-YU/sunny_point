@@ -3,13 +3,17 @@ import './app.scss';
 import top from '../assets/one/點數活動頁5-01.png';
 import topStar from '../assets/one/點數活動頁5-27.png';
 // import top2 from './assets/top2.jpg';
-// import one from '../assets/one/點數活動頁5-03.png';
+import one from '../assets/one/點數活動頁5-31.png';
 import one_app from '../assets/one/點數活動頁5-03.png';
+import one_circle1 from '../assets/one/點數活動頁5-34.png';
+import one_circle2 from '../assets/one/點數活動頁5-33.png';
+import one_circle3 from '../assets/one/點數活動頁5-32.png';
 // import pop from '../assets/one/點數活動頁5-04.png';
 import two from '../assets/one/點數活動頁5-05.png';
 import three from '../assets/one/點數活動頁5-06.png';
-// import four from './assets/four.jpg';
-// import five1 from './assets/five1.jpg';
+import four from '../assets/one/點數活動頁5-07.png';
+import five from '../assets/one/SunnyPoint大進擊-32_04.png';
+import five1 from '../assets/one/SunnyPoint大進擊2-31.png';
 // import five2 from './assets/five2.jpg';
 // import five3 from './assets/five3.jpg';
 // import fixLogo from './assets/fixLogo.png';
@@ -120,63 +124,108 @@ function Header() {
             </div>
 
             <div id="one" name="one" className="imageContainer">
-                <div>
+                <LazyLoadImage src={one} alt="" />
+                <nav>
                     <LazyLoadImage src={one_app} alt="" />
-                </div>
+                </nav>
+                <nav>
+                    <LazyLoadImage src={one_circle1} alt="" />
+                </nav>
+                <nav>
+                    <LazyLoadImage src={one_circle2} alt="" />
+                </nav>
+                <nav>
+                    <LazyLoadImage src={one_circle3} alt="" />
+                </nav>
             </div>
-            <div id="two" name="two" className="imageContainer getPoint">
+            <div id="two" name="two" className="imageContainer ">
                 <LazyLoadImage src={two} alt="" />
-                <div>
-                    <Link href="https://www.sunnygo.com.tw/web-front/registerPage/fillPhone"></Link>
-                </div>
-                {/* <Link href="https://www.sunnygo.com.tw/web-front/registerPage/fillPhone"></Link> */}
-                {/* <a className="getPoint" href="https://www.sunnygo.com.tw/web-front/registerPage/fillPhone" alt=""></a> */}
+
+                <a href="https://www.sunnygo.com.tw/web-front/#/store/sunnyfan" alt="/">
+                    {' '}
+                </a>
+                <a href="https://www.sunnygo.com.tw/web-front/home" alt="/">
+                    {' '}
+                </a>
+                <a href="https://www.sunnygo.com.tw/web-front/BankdividendHomepage/bankdivHome" alt="/">
+                    {' '}
+                </a>
+                <a href="https://www.sunnybank.com.tw/activityevent/112-01_SunnyLifePoints/web.html" alt="/">
+                    {' '}
+                </a>
+                <a
+                    href="https://www.sunnygo.com.tw/static_custom/11m_active/apply_now.html?id=undefined&sonId=134"
+                    alt="/"
+                >
+                    {' '}
+                </a>
+                {/* <a href="" alt="/">
+                    {' '}
+                </a> */}
             </div>
 
             <div id="three" name="three" className="imageContainer mt">
                 <LazyLoadImage src={three} alt="" />
             </div>
             <div id="four" name="four" className="imageContainer">
-                {/* <LazyLoadImage src={four} alt="" /> */}
-                {/* <a className="href2" href="https://www.sunnygo.com.tw/web-front/#/productDetails?id=232632" alt=""></a> */}
+                <LazyLoadImage src={four} alt="" />
             </div>
-            <div id="five" name="five" className="imageContainer">
-                {/* <LazyLoadImage id="five1" src={five1} alt="" />
-                <LazyLoadImage id="five2" src={five2} alt="" />
-                <LazyLoadImage id="five3" src={five3} alt="" /> */}
-                <a className="href3" href="https://www.sunnygo.com.tw/web-front/#/store/sunnyfan" alt="/">
-                    {' '}
-                </a>
-                <a className="href4" href="https://www.sunnygo.com.tw/web-front/#/registerPage/fillPhone" alt="/">
-                    {' '}
-                </a>
-                <a className="href5" href="https://www.sunnygo.com.tw/web-front/#/appDownLoad" alt="/">
-                    {' '}
-                </a>
-                <a
-                    className="href6"
-                    href="https://www.sunnygo.com.tw/static_custom/11m_active/apply_now.html?id=undefined&sonId=134"
-                    alt="/"
-                >
-                    {' '}
-                </a>
-                <a
-                    className="href7"
-                    href="https://www.sunnygo.com.tw/static_custom/11m_active/apply_now.html?id=undefined&sonId=134"
-                    alt="/"
-                >
-                    {' '}
-                </a>
+            <div id="five" name="five" className="imageContainer ">
+                <LazyLoadImage className="five" id="five1" src={five} alt="" />
+                <div className="fiveCon">
+                    <div className="title">
+                        <h2>Sunny Life 點數規則及說明</h2>
+                        <div className="cow">
+                            <LazyLoadImage src={five1} alt="" />
+                        </div>
+                    </div>
+                </div>
+                <div className="position">
+                    <div className="left">
+                        <div className="pointBox">
+                            <h4 className="text">Q1:賞力點</h4>
+                            <div className="containBox">
+                                <IoIosArrowDown className="icon" size={30} />
+                                <p>aaa</p>
+                            </div>
+                        </div>
+
+                        <div className="pointBox">
+                            <h4 className="text">Q1:賞力點</h4>
+                            <div className="containBox">
+                                <IoIosArrowDown className="icon" size={30} />
+                                <p>aaa</p>
+                            </div>
+                        </div>
+                        <div className="pointBox">
+                            <h4 className="text">Q1:賞力點</h4>
+                            <div className="containBox">
+                                <IoIosArrowDown className="icon" size={30} />
+                                <p>aaa</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="right">
+                        <div className="pointBox">
+                            <h4 className="text">Q1:賞力點</h4>
+                            <div className="containBox">
+                                <IoIosArrowDown className="icon" size={30} />
+                                <p>aaa</p>
+                            </div>
+                        </div>
+                        <div className="pointBox">
+                            <h4 className="text">Q1:賞力點</h4>
+                            <div className="containBox">
+                                <IoIosArrowDown className="icon" size={30} />
+                                <p>aaa</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div onClick={handleShow('show')} className={show ? 'fixed2 fixedActive ' : 'fixed2 '}>
                 <AiOutlineLeft /> 快速導覽
-            </div>
-
-            <div className="pointBox">
-                <div className="text">Q1:賞力點</div>
-                <div className="containBox">
-                    <IoIosArrowDown size={30} />
-                </div>
             </div>
         </div>
     );
