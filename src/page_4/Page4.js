@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import './_page4.scss';
 
-import Top from '../top/Top';
+import Top from '../component/top/Top';
 import top1 from '../assets/four/點數活動頁5-16.png';
 import top2 from '../assets/four/點數活動頁5-17.png';
 import top3 from '../assets/four/點數活動頁5-18.png';

@@ -7,30 +7,30 @@ html {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding-bottom: 5px;
+        // padding-bottom: 5px;
         background: #3683cb;
         .title {
             position: relative;
-            font-size: 32px;
+            font-size: clamp(20px, 3.5vw, 48px);
             font-weight: 600;
+            color: #fff;
             &::before {
                 position: absolute;
                 content: '';
-                width: 430px;
-                height: 45px;
-                border-top: 2px solid #fff;
-                border-left: 2px solid #fff;
+                width: 345px;
+                height: 35px;
+                border-top: 3px solid #fff;
+                border-left: 3px solid #fff;
                 top: 50%;
-                left: -172%;
-                color: #000;
+                right: 103%;
             }
             &::after {
                 position: absolute;
                 content: '';
-                width: 413px;
-                height: 45px;
-                border-top: 2px solid #fff;
-                border-right: 2px solid #fff;
+                width: 345px;
+                height: 35px;
+                border-top: 3px solid #fff;
+                border-right: 3px solid #fff;
                 top: 50%;
                 left: 103%;
             }
@@ -38,12 +38,12 @@ html {
         .click {
             display: flex;
             align-items: center;
-            margin-top: 45px;
+            margin-top: 30px;
             .clickBtn {
                 background: #c9dcbf;
                 border-radius: 100px;
-                width: 330px;
-                height: 65px;
+                width: 320px;
+                height: 60px;
                 margin: 0 15px;
                 cursor: pointer;
                 z-index: 10;
@@ -58,5 +58,57 @@ html {
     }
     .three {
         background: #52b2d5;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .page4 {
+        .onePage {
+            // background: #a6cb36;
+            .title {
+                &::before {
+                    width: 270px;
+                    border-top: 2px solid #fff;
+                    border-left: 2px solid #fff;
+                }
+                &::after {
+                    width: 270px;
+                    border-top: 2px solid #fff;
+                    border-right: 2px solid #fff;
+                }
+            }
+            .click {
+                .clickBtn {
+                    width: 240px;
+                    height: 55px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .page4 {
+        .onePage {
+            // background: #c836cb;
+            .title {
+                &::before {
+                    width: 100px;
+                    height: 25px;
+                }
+                &::after {
+                    width: 100px;
+                    height: 25px;
+                }
+            }
+            .click {
+                margin-top: 20px;
+                .clickBtn {
+                    width: 100px;
+                    height: 25px;
+                    margin: 0 10px;
+                }
+            }
+        }
     }
 }

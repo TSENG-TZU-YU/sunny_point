@@ -1,7 +1,7 @@
 import React from 'react';
 import './_page6.scss';
 
-import Top from '../top/Top';
+import Top from '../component/top/Top';
 import top1 from '../assets/six/點數活動頁5-24.png';
 import top2 from '../assets/six/點數活動頁5-25.png';
 import top3 from '../assets/six/點數活動頁5-28.png';

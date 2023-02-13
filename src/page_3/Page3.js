@@ -1,7 +1,7 @@
 import { React, useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import Top from '../top/Top';
+import Top from '../component/top/Top';
 import top1 from '../assets/three/點數活動頁5-14.png';
 import top2 from '../assets/three/點數活動頁5-15.png';
 
@@ -13,6 +13,18 @@ function Page3() {
     return (
         <div className="page3" id="#top">
             <Top />
+            <Link
+                to="https://www.sunnygo.com.tw/web-front/pointExchange"
+                className={`link01 ${down ? 'link01Down' : ''}`}
+            ></Link>
+            <Link
+                to="https://hamipoint.cht.com.tw/member/serialno"
+                className={`link02 ${down ? 'link02Down' : ''}`}
+            ></Link>
+            <Link
+                to="https://www.superpoint.com.tw/login?redirectUrl=%2Fweb%2Fexchange"
+                className={`link03 ${down ? 'link03Down' : ''}`}
+            ></Link>
             <img src={top1} alt="點數活動頁" />
             <div
                 className={`click ${down ? '' : 'top'}`}
