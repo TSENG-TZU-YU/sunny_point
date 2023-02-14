@@ -27,9 +27,11 @@
 .qaContainer {
     height: 100%;
     width: 100%;
+    .five {
+        height: 100vh;
+    }
     .qaContain {
         background-color: #c9dcbf;
-
         .imageContainerQa {
             position: relative;
             a {
@@ -55,7 +57,7 @@
                     height: 6vw;
                     max-width: 60%;
                     width: 100%;
-                    top: 5%;
+                    top: 6%;
                     display: flex;
                     text-align: center;
                     justify-content: center;
@@ -80,52 +82,95 @@
                     }
                 }
             }
-            .pointBox {
-                width: 80%;
-                background: rgb(41, 60, 96);
-                color: white;
-                border-radius: 20px;
-                padding: 10px 4%;
-                margin-top: 10px;
-                transition: 0.6s;
-
-                .text {
-                    color: white;
-                    font-size: 2vw;
-                    margin-bottom: 8px;
-                    white-space: nowrap;
-                }
-                .containBox {
-                    display: block;
-                    color: black;
-                    width: 100%;
-                    margin: auto;
-                    background: rgb(254, 222, 139);
-                    border-radius: 25px;
-                    height: 25px;
-                    overflow-y: hidden;
-                    transition: all 0.4s ease-in;
-                    @include scrollbar;
-
-                    .icon {
-                        width: 100%;
+            .position {
+                position: absolute;
+                @media only screen and (max-width: 576px) {
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    align-items: center;
+                    top: 90px;
+                    .left {
+                        width: 90%;
                         display: flex;
                         justify-content: center;
+                        flex-direction: column;
                         align-items: center;
-                        transition: all 0.5s ease-in;
-                        color: #aa6e00;
                     }
-                    p {
-                        padding: 2%;
-                        font-size: clamp(16px, 1.3vw, 2vw);
+                    .right {
+                        margin-top: 0%;
+                        width: 90%;
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        align-items: center;
                     }
                 }
-                & .containBox:hover {
-                    height: 250px;
-                    transition: all 0.5s ease-in;
-                    .icon {
-                        display: none;
+                @media only screen and (min-width: 576px) {
+                    display: flex;
+                    justify-content: center;
+                    top: 250px;
+
+                    .left {
+                        width: 45%;
+                        margin-left: 5%;
+                    }
+                    .right {
+                        margin-top: 3%;
+                        width: 45%;
+                        margin-right: 5%;
+                    }
+                }
+
+                width: 100%;
+
+                .pointBox {
+                    width: 80%;
+                    background: rgb(41, 60, 96);
+                    color: white;
+                    border-radius: 20px;
+                    padding: 10px 4%;
+                    margin-top: 10px;
+                    transition: 0.6s;
+
+                    .text {
+                        color: white;
+                        font-size: 2vw;
+                        margin-bottom: 8px;
+                        white-space: nowrap;
+                    }
+                    .containBox {
+                        display: block;
+                        color: black;
+                        width: 100%;
+                        margin: auto;
+                        background: rgb(254, 222, 139);
+                        border-radius: 25px;
+                        height: 25px;
+                        overflow-y: hidden;
+                        transition: all 0.4s ease-in;
+                        @include scrollbar;
+
+                        .icon {
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            transition: all 0.5s ease-in;
+                            color: #aa6e00;
+                        }
+                        p {
+                            padding: 2%;
+                            font-size: clamp(16px, 1.3vw, 2vw);
+                        }
+                    }
+                    & .containBox:hover {
+                        height: 250px;
                         transition: all 0.5s ease-in;
+                        .icon {
+                            display: none;
+                            transition: all 0.5s ease-in;
+                        }
                     }
                 }
             }

@@ -21,11 +21,11 @@ function Search() {
                 <div className="imageContainerQa ">
                     <LazyLoadImage src={two} alt="" />
                 </div>
-                <div id="five" name="five" className="imageContainer ">
+                <div id="five" name="five" className="imageContainerQa ">
                     <LazyLoadImage className="five" id="five1" src={qa1} alt="" />
                     <div className="fiveCon">
                         <div className="title">
-                            <h2>Sunny Life 點數規則及說明</h2>
+                            <h2>團媽 Q & A</h2>
                             <div className="cow">
                                 <LazyLoadImage src={qa2} alt="" />
                             </div>
@@ -34,7 +34,7 @@ function Search() {
                     <div className="position">
                         <div className="left">
                             <div className="pointBox">
-                                <h4 className="text">Q1.什麼是「Sunny Life賞利點」</h4>
+                                <h4 className="text">Q1.團購主規則</h4>
                                 <div className="containBox">
                                     <TiArrowSortedDown className="icon" size={30} />
                                     <p>
