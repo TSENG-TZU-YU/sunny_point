@@ -2,6 +2,8 @@ html {
     scroll-behavior: smooth;
 }
 .page4 {
+    position: relative;
+
     .onePage {
         display: flex;
         justify-content: center;
@@ -50,14 +52,51 @@ html {
             }
         }
     }
-    .one {
-        background: #3683cb;
+
+    .one1 {
+        position: relative;
+        .one {
+            background: #3683cb;
+        }
+        .link-1 {
+            position: absolute;
+            width: clamp(66px, 14vw, 203px);
+            height: clamp(20px, 4.5vw, 68px);
+            border-radius: 30px;
+            background: rgba(42, 8, 238, 0.729);
+            bottom: 9.5%;
+            right: 12%;
+        }
     }
-    .two {
-        background: #5fba55;
+    .one2 {
+        position: relative;
+        .two {
+            background: #5fba55;
+        }
+        .link-2 {
+            position: absolute;
+            width: clamp(66px, 14vw, 203px);
+            height: clamp(20px, 4.5vw, 68px);
+            border-radius: 30px;
+            background: rgba(42, 8, 238, 0.729);
+            bottom: 12%;
+            right: 19.8%;
+        }
     }
-    .three {
-        background: #52b2d5;
+    .one3 {
+        position: relative;
+        .three {
+            background: #52b2d5;
+        }
+        .link-3 {
+            position: absolute;
+            width: clamp(66px, 14vw, 203px);
+            height: clamp(20px, 4.5vw, 68px);
+            border-radius: 30px;
+            background: rgba(42, 8, 238, 0.729);
+            bottom: 9.5%;
+            right: 19.8%;
+        }
     }
 }
 

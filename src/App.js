@@ -12,7 +12,17 @@ import Page5 from './page_5/Page5';
 import Page6 from './page_6/Page6';
 
 function App() {
-    return <Page5 />;
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route path="Page3" element={<Page3 />} />;
+                <Route path="Page4" element={<Page4 />} />;
+                <Route path="Page5" element={<Page5 />} />;
+                <Route path="Page6" element={<Page6 />} />;
+
+            </Routes>
+        </BrowserRouter>
+    );
 }
 
 export default App;

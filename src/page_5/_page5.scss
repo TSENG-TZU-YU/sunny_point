@@ -1,56 +1,48 @@
 .page5 {
     position: relative;
-    .link1 {
-        position: absolute;
-        top: 74.5%;
-        left: 66.4%;
-        width: clamp(75px, 15vw, 228px);
-        height: clamp(18px, 3.5vw, 48px);
-        border-radius: 30px;
-        background: rgba(240, 128, 128, 0.571);
+    .page-01 {
+        position: relative;
+        .link1 {
+            position: absolute;
+            bottom: 21%;
+            right: 18.5%;
+            width: clamp(75px, 15vw, 228px);
+            height: clamp(18px, 3.5vw, 48px);
+            border-radius: 30px;
+            background: rgba(240, 128, 128, 0.571);
+        }
+        .link2 {
+            position: absolute;
+            bottom: 16.5%;
+            right: 18.5%;
+            width: clamp(75px, 15vw, 228px);
+            height: clamp(18px, 3.5vw, 48px);
+            border-radius: 30px;
+            background: rgba(163, 128, 240, 0.571);
+        }
+        .link3 {
+            position: absolute;
+            bottom: 12%;
+            right: 18.5%;
+            width: clamp(75px, 15vw, 228px);
+            height: clamp(18px, 3.5vw, 48px);
+            border-radius: 30px;
+            background: rgba(240, 128, 158, 0.571);
+        }
+        .clicked {
+            position: absolute;
+            bottom: 8%;
+            left: 50%;
+            transform: translateX(-47%);
+            width: clamp(110px, 20vw, 290px);
+            height: clamp(20px, 4.5vw, 60px);
+            background: rgba(240, 128, 128, 0.504);
+            border-radius: 30px;
+            cursor: pointer;
+            transition: height 0.6s ease;
+        }
     }
-    .link1Down {
-        top: 25.3%;
-    }
-    .link2 {
-        position: absolute;
-        top: 79%;
-        left: 66.4%;
-        width: clamp(75px, 15vw, 228px);
-        height: clamp(18px, 3.5vw, 48px);
-        border-radius: 30px;
-        background: rgba(163, 128, 240, 0.571);
-    }
-    .link2Down {
-        top: 26.85%;
-    }
-    .link3 {
-        position: absolute;
-        top: 83.5%;
-        left: 66.4%;
-        width: clamp(75px, 15vw, 228px);
-        height: clamp(18px, 3.5vw, 48px);
-        border-radius: 30px;
-        background: rgba(240, 128, 158, 0.571);
-    }
-    .link3Down {
-        top: 28.35%;
-    }
-    .clicked {
-        position: absolute;
-        top: 29.4%;
-        left: 50%;
-        transform: translateX(-47%);
-        width: clamp(110px, 20vw, 290px);
-        height: clamp(20px, 4.5vw, 60px);
-        background: rgba(240, 128, 128, 0.504);
-        border-radius: 30px;
-        cursor: pointer;
-        transition: height 0.6s ease;
-    }
-    .topTo {
-        top: 86.6%;
-    }
+
     .up {
         opacity: 0;
         height: 0;
@@ -64,63 +56,5 @@
         visibility: visible;
         transition: all 0.2s ease-in;
         background-color: rgba(0, 0, 0, 0.1);
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .page5 {
-        .link1 {
-            top: 73.5%;
-        }
-        .link1Down {
-            top: 25.2%;
-        }
-        .link2 {
-            top: 78%;
-        }
-        .link2Down {
-            top: 26.84%;
-        }
-        .link3 {
-            top: 82.5%;
-        }
-        .link3Down {
-            top: 28.34%;
-        }
-        .clicked {
-            top: 29.3%;
-        }
-        .topTo {
-            top: 85.1%;
-        }
-    }
-}
-
-@media screen and (max-width: 715px) {
-    .page5 {
-        .link1 {
-            top: 72.1%;
-        }
-        .link1Down {
-            top: 25.1%;
-        }
-        .link2 {
-            top: 76.6%;
-        }
-        .link2Down {
-            top: 26.6%;
-        }
-        .link3 {
-            top: 81.1%;
-        }
-        .link3Down {
-            top: 28.1%;
-        }
-        .clicked {
-            top: 29.2%;
-        }
-        .topTo {
-            top: 83.7%;
-        }
     }
 }

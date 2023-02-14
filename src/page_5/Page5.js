@@ -13,25 +13,19 @@ function Page5() {
     return (
         <div className="page5" id="#top">
             <Top />
-            <Link
-                to="https://www.sunnygo.com.tw/web-front/pointExchange"
-                className={`link1 ${down ? 'link1Down' : ''}`}
-            ></Link>
-            <Link
-                to="https://hamipoint.cht.com.tw/member/serialno"
-                className={`link2 ${down ? 'link2Down' : ''}`}
-            ></Link>
-            <Link
-                to="https://www.superpoint.com.tw/login?redirectUrl=%2Fweb%2Fexchange"
-                className={`link3 ${down ? 'link3Down' : ''}`}
-            ></Link>
-            <img src={top1} alt="點數活動頁" />
-            <div
-                className={`clicked ${down ? '' : 'topTo'}`}
-                onClick={() => {
-                    setDown(true);
-                }}
-            ></div>
+            <div className="page-01">
+                <img src={top1} alt="點數活動頁" />
+                <Link to="https://www.sunnygo.com.tw/web-front/pointExchange" className={`link1`}></Link>
+                <Link to="https://hamipoint.cht.com.tw/member/serialno" className={`link2`}></Link>
+                <Link to="https://www.superpoint.com.tw/login?redirectUrl=%2Fweb%2Fexchange" className={`link3`}></Link>
+                <div
+                    className={`clicked`}
+                    onClick={() => {
+                        setDown(true);
+                    }}
+                ></div>
+            </div>
+
             <img src={top2} alt="點數活動頁" className={`${down ? 'down' : 'up'}`} />
         </div>
     );
