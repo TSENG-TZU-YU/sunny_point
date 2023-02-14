@@ -43,11 +43,24 @@
     }
 }
 .exContain {
-    position: relative;
     width: 100%;
     background-color: antiquewhite;
-
     .imageContainer1 {
+        position: relative;
+        .one {
+            position: absolute;
+            background: black;
+            opacity: 0;
+            cursor: pointer;
+            width: 13%;
+            height: 7%;
+            bottom: 15%;
+            left: 42%;
+            border-radius: 45px;
+        }
+    }
+
+    .four {
         a {
             position: absolute;
             background: black;
@@ -77,5 +90,8 @@
                 border-radius: 45px;
             }
         }
+    }
+
+    .imageContainer1 {
     }
 }
