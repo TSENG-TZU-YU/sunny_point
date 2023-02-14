@@ -15,7 +15,16 @@ import Search from './Search';
 import Mom_page3 from './Mom_page3';
 
 function App() {
-    return <Mom_page3 />;
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route path="Page3" element={<Page3 />} />;
+                <Route path="Page4" element={<Page4 />} />;
+                <Route path="Page5" element={<Page5 />} />;
+                <Route path="Page6" element={<Page6 />} />;
+            </Routes>
+        </BrowserRouter>
+    );
 }
 
 export default App;
