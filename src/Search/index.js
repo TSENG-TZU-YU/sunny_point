@@ -7,7 +7,7 @@ import { Link, animateScroll } from 'react-scroll';
 
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
-function Search() {
+function Mom_page3() {
     return (
         <div className="scContainer">
             <div className="scContain">
@@ -22,4 +22,4 @@ function Search() {
     );
 }
 
-export default Search;
+export default Mom_page3;

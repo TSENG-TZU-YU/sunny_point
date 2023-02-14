@@ -106,20 +106,6 @@ function Header() {
                 <img src={top} alt="" />
             </div>
 
-            <div className="imageContainer">
-                {/* <a className="top2href1" href="https://www.sunnygo.com.tw/web-front/#/activePanel?id=12"></a> */}
-                {/* <Link className="top2href2" href="#one" to="one" spy={true} smooth={true}></Link>
-                <Link className="top2href3" href="#two" to="two" spy={true} smooth={true}></Link>
-                <Link className="top2href4" href="#three" to="three" spy={true} smooth={true}></Link>
-                <Link className="top2href5" href="#four" to="four" spy={true} smooth={true}></Link>
-                <Link className="top2href6" href="#five" to="five" spy={true} smooth={true}></Link>
-                <Link className="top2href7" href="#five2" to="five2" spy={true} smooth={true}></Link>
-                <Link className="top2href8" href="#five3" to="five3" spy={true} smooth={true}></Link>
-                <Link className="top2href9" href="#five3" to="five3" spy={true} smooth={true}></Link> */}
-
-                {/* <img src={top2} alt="" /> */}
-            </div>
-
             <div id="one" name="one" className="imageContainer">
                 <LazyLoadImage src={one} alt="" />
                 <nav>
