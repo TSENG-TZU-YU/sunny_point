@@ -13,6 +13,9 @@ function Search() {
             <div className="scContain">
                 <div className="imageContainer1 ">
                     <LazyLoadImage src={one} alt="" />
+                    <a className="one" href="https://www.sunnygo.com.tw/web-front/pointExchange" alt="/">
+                        {' '}
+                    </a>
                 </div>
             </div>
         </div>
