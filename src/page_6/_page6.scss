@@ -54,3 +54,43 @@ html {
     }
 }
 
+@media screen and (max-width: 1200px) {
+    .page6 {
+        .onePage {
+            .click {
+                // margin-top: 40px;
+                .clickBtn {
+                    width: 240px;
+                    margin: 0 15px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .page6 {
+        .onePage {
+            .click {
+                // margin-top: 40px;
+                .clickBtn {
+                    width: 160px;
+                    margin: 0 15px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .page6 {
+        .onePage {
+            .click {
+                // margin-top: 40px;
+                .clickBtn {
+                    width: 100px;
+                }
+            }
+        }
+    }
+}

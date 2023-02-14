@@ -1,12 +1,48 @@
 .page5 {
     position: relative;
+    .link1 {
+        position: absolute;
+        top: 74.5%;
+        left: 66.4%;
+        width: clamp(75px, 15vw, 228px);
+        height: clamp(18px, 3.5vw, 48px);
+        border-radius: 30px;
+        background: rgba(240, 128, 128, 0.571);
+    }
+    .link1Down {
+        top: 25.3%;
+    }
+    .link2 {
+        position: absolute;
+        top: 79%;
+        left: 66.4%;
+        width: clamp(75px, 15vw, 228px);
+        height: clamp(18px, 3.5vw, 48px);
+        border-radius: 30px;
+        background: rgba(163, 128, 240, 0.571);
+    }
+    .link2Down {
+        top: 26.85%;
+    }
+    .link3 {
+        position: absolute;
+        top: 83.5%;
+        left: 66.4%;
+        width: clamp(75px, 15vw, 228px);
+        height: clamp(18px, 3.5vw, 48px);
+        border-radius: 30px;
+        background: rgba(240, 128, 158, 0.571);
+    }
+    .link3Down {
+        top: 28.35%;
+    }
     .clicked {
         position: absolute;
         top: 29.4%;
         left: 50%;
         transform: translateX(-47%);
-        width: 290px;
-        height: 60px;
+        width: clamp(110px, 20vw, 290px);
+        height: clamp(20px, 4.5vw, 60px);
         background: rgba(240, 128, 128, 0.504);
         border-radius: 30px;
         cursor: pointer;
@@ -31,28 +67,60 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
     .page5 {
+        .link1 {
+            top: 73.5%;
+        }
+        .link1Down {
+            top: 25.2%;
+        }
+        .link2 {
+            top: 78%;
+        }
+        .link2Down {
+            top: 26.84%;
+        }
+        .link3 {
+            top: 82.5%;
+        }
+        .link3Down {
+            top: 28.34%;
+        }
         .clicked {
             top: 29.3%;
-            width: 145px;
-            height: 30px;
         }
         .topTo {
-          top: 85.1%;
-      }
+            top: 85.1%;
+        }
     }
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 715px) {
     .page5 {
+        .link1 {
+            top: 72.1%;
+        }
+        .link1Down {
+            top: 25.1%;
+        }
+        .link2 {
+            top: 76.6%;
+        }
+        .link2Down {
+            top: 26.6%;
+        }
+        .link3 {
+            top: 81.1%;
+        }
+        .link3Down {
+            top: 28.1%;
+        }
         .clicked {
             top: 29.2%;
-            width: 110px;
-            height: 20px;
         }
         .topTo {
-          top: 83.7%;
-      }
+            top: 83.7%;
+        }
     }
 }

@@ -1,4 +1,4 @@
-import './App.scss';
+import './app.scss';
 import React, { useState } from 'react';
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
@@ -12,7 +12,7 @@ import Page5 from './page_5/Page5';
 import Page6 from './page_6/Page6';
 
 function App() {
-    return <Search />
+    return <Page5 />;
 }
 
 export default App;
