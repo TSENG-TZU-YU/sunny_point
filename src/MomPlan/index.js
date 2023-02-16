@@ -7,19 +7,28 @@ import two from '../assets/mom/團爸團媽養成計劃-01_02.jpg';
 import qa1 from '../assets/one/SunnyPoint大進擊-32_04.png';
 import qa2 from '../assets/one/SunnyPoint大進擊2-31.png';
 
-import { Link, animateScroll } from 'react-scroll';
-
+import Top from '../component/top/Top';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function MomPlan() {
     return (
         <div className="qaContainer">
+            <Top />
             <div className="qaContain">
                 <div className="imageContainerQa ">
                     <LazyLoadImage src={one} alt="" />
                 </div>
-                <div className="imageContainerQa ">
+                <div className="imageContainerQa one">
                     <LazyLoadImage src={two} alt="" />
+                    <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/Howapply.html" alt="/">
+                        {' '}
+                    </a>
+                    <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/HowToBe.html" alt="/">
+                        {' '}
+                    </a>
+                    <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/Howopen.html" alt="/">
+                        {' '}
+                    </a>
                 </div>
                 <div id="five" name="five" className="imageContainerQa ">
                     <LazyLoadImage className="five" id="five1" src={qa1} alt="" />

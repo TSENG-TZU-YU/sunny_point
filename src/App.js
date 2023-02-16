@@ -18,7 +18,7 @@ import Howapply from './Howapply';
 import Howopen from './Howopen';
 
 function App() {
-    return <Search />;
+    return <MomPlan />;
 }
 
 export default App;

@@ -9,10 +9,10 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function Search() {
     return (
-        <div className="qaContainer">
+        <div className="haContainer">
             <Top />
-            <div className="qaContain">
-                <div className="imageContainerQa ">
+            <div className="haContain">
+                <div className="imageContainerHa ">
                     <LazyLoadImage src={one} alt="" />
                 </div>
             </div>
