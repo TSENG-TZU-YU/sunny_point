@@ -20,6 +20,9 @@
         //   border-radius: 3px;
     }
 }
+html {
+    scroll-behavior: smooth;
+}
 
 .mt {
     margin-top: 50px;
@@ -131,6 +134,27 @@
             left: 52.3%;
             border-radius: 45px;
         }
+        &:nth-of-type(2) {
+            width: 29.3%;
+            height: 10%;
+            bottom: 18%;
+            left: 3%;
+            border-radius: 45px;
+        }
+        &:nth-of-type(3) {
+            width: 29.3%;
+            height: 10%;
+            bottom: 18%;
+            left: 35.4%;
+            border-radius: 45px;
+        }
+        &:nth-of-type(4) {
+            width: 43%;
+            height: 9%;
+            bottom: 6.3%;
+            left: 28.5%;
+            border-radius: 45px;
+        }
     }
 }
 
@@ -142,7 +166,7 @@
     }
     nav {
         position: absolute;
-        transition: all 0.4s;
+        // transition: all 0.4s;
         cursor: pointer;
 
         &:nth-child(2) {
@@ -246,7 +270,7 @@
             border-radius: 20px;
             padding: 10px 4%;
             margin-top: 10px;
-            transition: 0.6s;
+            // transition: 0.6s;
 
             .text {
                 color: white;
@@ -282,10 +306,6 @@
             & .containBox:hover {
                 height: 250px;
                 transition: all 0.5s ease-in;
-                .icon {
-                    display: none;
-                    transition: all 0.5s ease-in;
-                }
             }
         }
     }
@@ -310,7 +330,7 @@
         }
 
         transform: translate(0%, -50%);
-        transition: 0.5s;
+        // transition: 0.5s;
         align-items: center;
         z-index: 5;
         border-radius: 60px 60px 60px 60px;
@@ -333,7 +353,6 @@
             align-items: center;
             justify-content: center;
             cursor: pointer;
-            transition: 0.5s;
             color: white;
 
             @include ipad {
@@ -405,7 +424,7 @@
         text-align: center;
         padding: 4px;
         color: white;
-        transition: 0.5s;
+        // transition: 0.5s;
         z-index: 5;
 
         &.fixedActive {

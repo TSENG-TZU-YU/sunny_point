@@ -142,6 +142,12 @@ function Header() {
                 >
                     {' '}
                 </a>
+                <a
+                    href="https://www.sunnygo.com.tw/static_custom/sunny_point/Search.html"
+                    alt="/"
+                >
+                    {' '}
+                </a>
             </div>
 
             <div id="three" name="three" className="imageContainer mt three">
@@ -155,7 +161,7 @@ function Header() {
                 <a href="https://www.sunnygo.com.tw/web-front/store/sunnylife001" alt="/">
                     {' '}
                 </a>
-                <a href="https://www.sunnygo.com.tw/static_custom/11m_active/cooperative.html" alt="/">
+                <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/Sunnylifepoint.html" alt="/">
                     {' '}
                 </a>
                 <a href="https://www.sunnygo.com.tw/static_custom/11m_active/cooperative.html" alt="/">
@@ -165,6 +171,15 @@ function Header() {
             <div id="four" name="four" className="imageContainer four">
                 <LazyLoadImage src={four} alt="" />
                 <a href="https://www.sunnygo.com.tw/web-front/appDownLoad" alt="/">
+                    {' '}
+                </a>
+                <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/Exchang.html" alt="/">
+                    {' '}
+                </a>
+                <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/Mom_header.html" alt="/">
+                    {' '}
+                </a>
+                <a href="https://www.sunnygo.com.tw/web-front/home" alt="/">
                     {' '}
                 </a>
             </div>

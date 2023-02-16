@@ -1,4 +1,6 @@
 .page3 {
+    // position: relative;
+    
     .page-1 {
         position: relative;
         margin-bottom: -20px;
@@ -43,8 +45,8 @@
         }
     }
     .expandUp {
-        opacity: 0;
         height: 0;
+        width: 100%;
         visibility: hidden;
         background-color: transparent;
         transition: all 0.6s ease-in;

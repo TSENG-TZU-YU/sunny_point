@@ -12,9 +12,11 @@ import Sunnylifepoint from './Sunnylifepoint';
 import Search from './Search';
 
 // mom
-import Mom_page3 from './Mom_page3';
+import HowToBe from './Mom_header';
+import MomPlan from './Mom_page3';
 import Howapply from './Howapply';
 import Howopen from './Howopen';
+
 function App() {
     return <Howopen />;
 }

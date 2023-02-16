@@ -9,12 +9,13 @@ import three from '../assets/two/點數活動頁5-12.png';
 import four from '../assets/two/點數活動頁5-13.png';
 
 import { Link, animateScroll } from 'react-scroll';
-
+import Top from '../component/top/Top';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function Exchang() {
     return (
         <div className="exContainer">
+           <Top />
             <div className="title">
                 <div className="h1">點數兌換點數</div>
                 <div className="line"></div>
@@ -37,18 +38,30 @@ function Exchang() {
                 <div className="imageContainer1 mt">
                     <LazyLoadImage src={two} alt="" />
                 </div>
-                <div className="imageContainer1 mt">
+                <div className="imageContainer1 mt exThree">
                     <LazyLoadImage src={three} alt="" />
+                    <a href="https://www.sunnygo.com.tw/web-front/productDetails?id=240607" alt="/">
+                        {' '}
+                    </a>
+                    <a href="https://www.sunnygo.com.tw/web-front/productDetails?id=240605" alt="/">
+                        {' '}
+                    </a>
+                    <a href="https://www.sunnygo.com.tw/web-front/productDetails?id=232071" alt="/">
+                        {' '}
+                    </a>
+                    <a href="https://www.sunnygo.com.tw/web-front/productDetails?id=232077" alt="/">
+                        {' '}
+                    </a>
                 </div>
-                <div className="imageContainer1 mt four">
+                <div className="imageContainer1 mt exFour">
                     <LazyLoadImage src={four} alt="" />
-                    <a href="https://www.sunnygo.com.tw/web-front/pointExchange" alt="/">
+                    <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/Cooperate.html" alt="/">
                         {' '}
                     </a>
-                    <a href="https://www.sunnygo.com.tw/web-front/pointExchange" alt="/">
+                    <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/Exchangemethod.html" alt="/">
                         {' '}
                     </a>
-                    <a href="https://www.sunnygo.com.tw/web-front/pointExchange" alt="/">
+                    <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/Numberview.html" alt="/">
                         {' '}
                     </a>
                 </div>
