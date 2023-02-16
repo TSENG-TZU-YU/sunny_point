@@ -142,10 +142,7 @@ function Header() {
                 >
                     {' '}
                 </a>
-                <a
-                    href="https://www.sunnygo.com.tw/static_custom/sunny_point/Search.html"
-                    alt="/"
-                >
+                <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/Search.html" alt="/">
                     {' '}
                 </a>
             </div>
