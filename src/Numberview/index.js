@@ -1,5 +1,4 @@
 import { React, useState } from 'react';
-import { Link } from 'react-router-dom';
 
 import Top from '../component/top/Top';
 import Prev from '../component/Prev_page/index';

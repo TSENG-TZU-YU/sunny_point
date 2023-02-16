@@ -1,5 +1,4 @@
 import { React, useState } from 'react';
-import { Link } from 'react-router-dom';
 
 import Top from '../component/top/Top';
 import Prev from '../component/Prev_page/index';
@@ -12,10 +11,9 @@ function Cooperate() {
     const [down, setDown] = useState(false);
 
     return (
-        // <div>111</div>
         <div className="page3" id="#top">
             <Top />
-            <a href="https://www.sunnygo.com.tw/web-front/#/activePanel?id=7">
+            <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/SunnyPoint.html">
                 <Prev />
             </a>
 
