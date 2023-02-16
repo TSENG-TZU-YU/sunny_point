@@ -12,10 +12,11 @@ import Page6 from './page_6/Page6';
 import Search from './Search';
 
 // mom
-import Mom_page3 from './Mom_page3';
+import Mom_HowToBe from './Mom_header';
+import Mom_plan from './Mom_page3';
 
 function App() {
-    return <Mom_page3 />;
+    return <Mom_plan />;
 }
 
 export default App;

@@ -36,6 +36,7 @@
             height: 34%;
             top: 12.2%;
             left: 0%;
+           
         }
 
         &:nth-child(3) {
@@ -129,6 +130,13 @@
             height: 5%;
             top: 46%;
             left: 52.3%;
+            border-radius: 45px;
+        }
+        &:nth-of-type(2) {
+            width: 29.3%;
+            height: 10%;
+            bottom: 18%;
+            left: 35.4%;
             border-radius: 45px;
         }
     }
