@@ -5,26 +5,20 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 //sunny point
 import Header from './Header';
 import Exchang from './Exchang';
-import Page3 from './page_3/Page3';
-import Page4 from './page_4/Page4';
-import Page5 from './page_5/Page5';
-import Page6 from './page_6/Page6';
+import Cooperate from './Cooperate';
+import Exchangemethod from './Exchangemethod';
+import Numberview from './Numberview';
+import Sunnylifepoint from './Sunnylifepoint';
+
+
 import Search from './Search';
 
 // mom
 import Mom_page3 from './Mom_page3';
-
+import Howapply from './Howapply';
+import Howopen from './Howopen';
 function App() {
-    return (
-        <BrowserRouter>
-            <Routes>
-                <Route path="Page3" element={<Page3 />} />;
-                <Route path="Page4" element={<Page4 />} />;
-                <Route path="Page5" element={<Page5 />} />;
-                <Route path="Page6" element={<Page6 />} />;
-            </Routes>
-        </BrowserRouter>
-    );
+    return <Howopen />;
 }
 
 export default App;
