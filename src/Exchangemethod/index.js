@@ -12,7 +12,7 @@ import top4 from '../assets/four/點數活動頁5-19.png';
 import top5 from '../assets/four/點數活動頁5-20.png';
 import top6 from '../assets/four/點數活動頁5-21.png';
 
-function Page4() {
+function Exchangemethod() {
     return (
         <div className="page4" id="#top">
             <Top />
@@ -56,4 +56,4 @@ function Page4() {
     );
 }
 
-export default Page4;
+export default Exchangemethod;

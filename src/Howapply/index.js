@@ -4,7 +4,7 @@ import './_momPage2.scss';
 import top1 from '../assets/mom/如何成為團媽頁面-02_01.jpg';
 import top2 from '../assets/mom/如何成為團媽頁面-02_02.jpg';
 
-function MomPage2() {
+function Howapply() {
     const [down, setDown] = useState(false);
 
     return (
@@ -24,4 +24,4 @@ function MomPage2() {
     );
 }
 
-export default MomPage2;
+export default Howapply;

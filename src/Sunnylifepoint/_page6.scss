@@ -10,43 +10,30 @@ html {
         align-items: center;
         flex-direction: column;
         background: #f6c896;
-        padding-top: 40px;
-        // .title {
-        //     position: relative;
-        //     font-size: 32px;
-        //     font-weight: 600;
-        //     &::before {
-        //         position: absolute;
-        //         content: '';
-        //         width: 430px;
-        //         height: 45px;
-        //         border-top: 2px solid #fff;
-        //         border-left: 2px solid #fff;
-        //         top: 50%;
-        //         left: -172%;
-        //         color: #000;
-        //     }
-        //     &::after {
-        //         position: absolute;
-        //         content: '';
-        //         width: 413px;
-        //         height: 45px;
-        //         border-top: 2px solid #fff;
-        //         border-right: 2px solid #fff;
-        //         top: 50%;
-        //         left: 103%;
-        //     }
-        // }
+        padding-top: 45px;
         .click {
             display: flex;
             align-items: center;
-            // margin-top: 40px;
             .clickBtn {
-                width: 330px;
+                width: clamp(100px, 23vw, 330px);
                 margin: 0 15px;
                 cursor: pointer;
                 z-index: 10;
             }
+        }
+    }
+    .twoTo{
+        position: relative;
+        .to{
+            position: absolute;
+            cursor: pointer;
+            bottom: 7.8%;
+            left: 50%;
+            transform: translateX(-42%);
+            width: clamp(100px, 20vw, 295px);
+            height: clamp(25px, 4.5vw, 60px);
+            border-radius: 30px;
+            // background: rgba(240, 128, 128, 0.595);
         }
     }
     .three {
@@ -55,43 +42,40 @@ html {
     }
 }
 
-@media screen and (max-width: 1200px) {
-    .page6 {
-        .onePage {
-            .click {
-                // margin-top: 40px;
-                .clickBtn {
-                    width: 240px;
-                    margin: 0 15px;
-                }
-            }
-        }
-    }
-}
+// @media screen and (max-width: 1200px) {
+//     .page6 {
+//         .onePage {
+//             .click {
+//                 .clickBtn {
+//                     width: 240px;
+//                     margin: 0 15px;
+//                 }
+//             }
+//         }
+//     }
+// }
 
-@media screen and (max-width: 900px) {
-    .page6 {
-        .onePage {
-            .click {
-                // margin-top: 40px;
-                .clickBtn {
-                    width: 160px;
-                    margin: 0 15px;
-                }
-            }
-        }
-    }
-}
+// @media screen and (max-width: 900px) {
+//     .page6 {
+//         .onePage {
+//             .click {
+//                 .clickBtn {
+//                     width: 160px;
+//                     margin: 0 15px;
+//                 }
+//             }
+//         }
+//     }
+// }
 
-@media screen and (max-width: 576px) {
-    .page6 {
-        .onePage {
-            .click {
-                // margin-top: 40px;
-                .clickBtn {
-                    width: 100px;
-                }
-            }
-        }
-    }
-}
+// @media screen and (max-width: 576px) {
+//     .page6 {
+//         .onePage {
+//             .click {
+//                 .clickBtn {
+//                     width: 100px;
+//                 }
+//             }
+//         }
+//     }
+// }

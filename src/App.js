@@ -1,5 +1,5 @@
 import './app.scss';
-import React, { useState } from 'react';
+import React from 'react';
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 //sunny point
@@ -18,7 +18,7 @@ import Howapply from './Howapply';
 import Howopen from './Howopen';
 
 function App() {
-    return <HowToBe />;
+    return <Sunnylifepoint />;
 }
 
 export default App;

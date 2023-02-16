@@ -63,7 +63,7 @@ html {
             width: clamp(66px, 14vw, 203px);
             height: clamp(20px, 4.5vw, 68px);
             border-radius: 30px;
-            background: rgba(42, 8, 238, 0.729);
+            // background: rgba(42, 8, 238, 0.729);
             bottom: 9.5%;
             right: 12%;
         }
@@ -78,7 +78,7 @@ html {
             width: clamp(66px, 14vw, 203px);
             height: clamp(20px, 4.5vw, 68px);
             border-radius: 30px;
-            background: rgba(42, 8, 238, 0.729);
+            // background: rgba(42, 8, 238, 0.729);
             bottom: 12%;
             right: 19.8%;
         }
@@ -93,7 +93,7 @@ html {
             width: clamp(66px, 14vw, 203px);
             height: clamp(20px, 4.5vw, 68px);
             border-radius: 30px;
-            background: rgba(42, 8, 238, 0.729);
+            // background: rgba(42, 8, 238, 0.729);
             bottom: 9.5%;
             right: 19.8%;
         }
@@ -103,7 +103,6 @@ html {
 @media screen and (max-width: 1200px) {
     .page4 {
         .onePage {
-            // background: #a6cb36;
             .title {
                 &::before {
                     width: 270px;
@@ -129,7 +128,6 @@ html {
 @media screen and (max-width: 900px) {
     .page4 {
         .onePage {
-            // background: #c836cb;
             .title {
                 &::before {
                     width: 100px;

@@ -8,7 +8,7 @@ import top2 from '../assets/five/點數活動頁5-23.png';
 
 import './_page5.scss';
 
-function Page5() {
+function Numberview() {
     const [down, setDown] = useState(false);
 
     return (
@@ -42,4 +42,4 @@ function Page5() {
     );
 }
 
-export default Page5;
+export default Numberview;
