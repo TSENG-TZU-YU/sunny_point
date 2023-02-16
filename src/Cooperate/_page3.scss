@@ -45,12 +45,14 @@
     }
     .expandUp {
         height: 0;
+        width: 100%;
         visibility: hidden;
         background-color: transparent;
         transition: all 0.8s ease-in;
     }
     .expandDown {
-        height: 420vh;
+        height: 220vw;
+        width: 100%;
         visibility: visible;
         transition: all 1s ease-in;
     }

@@ -142,6 +142,12 @@ function Header() {
                 >
                     {' '}
                 </a>
+                <a
+                    href="https://www.sunnygo.com.tw/static_custom/sunny_point/Search.html"
+                    alt="/"
+                >
+                    {' '}
+                </a>
             </div>
 
             <div id="three" name="three" className="imageContainer mt three">

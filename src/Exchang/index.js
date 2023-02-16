@@ -9,12 +9,13 @@ import three from '../assets/two/點數活動頁5-12.png';
 import four from '../assets/two/點數活動頁5-13.png';
 
 import { Link, animateScroll } from 'react-scroll';
-
+import Top from '../component/top/Top';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function Exchang() {
     return (
         <div className="exContainer">
+           <Top />
             <div className="title">
                 <div className="h1">點數兌換點數</div>
                 <div className="line"></div>

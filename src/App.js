@@ -13,12 +13,12 @@ import Search from './Search';
 
 // mom
 import HowToBe from './Mom_header';
-import MomPlan from './MomPlan';
+import MomPlan from './Mom_page3';
 import Howapply from './Howapply';
 import Howopen from './Howopen';
 
 function App() {
-    return <Sunnylifepoint />;
+    return <Cooperate />;
 }
 
 export default App;
