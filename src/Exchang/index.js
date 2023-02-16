@@ -37,10 +37,22 @@ function Exchang() {
                 <div className="imageContainer1 mt">
                     <LazyLoadImage src={two} alt="" />
                 </div>
-                <div className="imageContainer1 mt">
+                <div className="imageContainer1 mt exThree">
                     <LazyLoadImage src={three} alt="" />
+                    <a href="https://www.sunnygo.com.tw/web-front/pointExchange" alt="/">
+                        {' '}
+                    </a>
+                    <a href="https://www.sunnygo.com.tw/web-front/pointExchange" alt="/">
+                        {' '}
+                    </a>
+                    <a href="https://www.sunnygo.com.tw/web-front/pointExchange" alt="/">
+                        {' '}
+                    </a>
+                    <a href="https://www.sunnygo.com.tw/web-front/pointExchange" alt="/">
+                        {' '}
+                    </a>
                 </div>
-                <div className="imageContainer1 mt four">
+                <div className="imageContainer1 mt exFour">
                     <LazyLoadImage src={four} alt="" />
                     <a href="https://www.sunnygo.com.tw/web-front/pointExchange" alt="/">
                         {' '}

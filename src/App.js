@@ -16,7 +16,7 @@ import Mom_HowToBe from './Mom_header';
 import Mom_plan from './Mom_page3';
 
 function App() {
-    return <Mom_plan />;
+    return <Exchang />;
 }
 
 export default App;

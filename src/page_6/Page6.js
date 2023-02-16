@@ -2,6 +2,7 @@ import React from 'react';
 import './_page6.scss';
 
 import Top from '../component/top/Top';
+import Prev from '../component/Prev_page/index';
 import top1 from '../assets/six/點數活動頁5-24.png';
 import top2 from '../assets/six/點數活動頁5-25.png';
 import top3 from '../assets/six/點數活動頁5-28.png';
@@ -12,6 +13,10 @@ function Page6() {
     return (
         <div className="page6" id="top">
             <Top />
+            <a href="https://www.sunnygo.com.tw/web-front/#/activePanel?id=7">
+                <Prev />
+            </a>
+
             <div className="onePage">
                 <div>回上一頁</div>
                 {/* <div className="title">點數序號兌換方式</div> */}

@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import './_page4.scss';
 
 import Top from '../component/top/Top';
+import Prev from '../component/Prev_page/index';
 import top1 from '../assets/four/點數活動頁5-16.png';
 import top2 from '../assets/four/點數活動頁5-17.png';
 import top3 from '../assets/four/點數活動頁5-18.png';
@@ -15,6 +16,9 @@ function Page4() {
     return (
         <div className="page4" id="#top">
             <Top />
+            <a href="https://www.sunnygo.com.tw/web-front/#/activePanel?id=7">
+                <Prev />
+            </a>
 
             <div className="onePage">
                 <div>回上一頁</div>

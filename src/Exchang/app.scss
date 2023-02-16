@@ -41,57 +41,93 @@
             margin-top: 20px;
         }
     }
-}
-.exContain {
-    width: 100%;
-    background-color: antiquewhite;
-    .imageContainer1 {
-        position: relative;
-        .one {
-            position: absolute;
-            background: black;
-            opacity: 0;
-            cursor: pointer;
-            width: 13%;
-            height: 7%;
-            bottom: 15%;
-            left: 42%;
-            border-radius: 45px;
-        }
-    }
-
-    .four {
-        a {
-            position: absolute;
-            background: black;
-            opacity: 0;
-            cursor: pointer;
-
-            &:nth-child(2) {
-                width: 39%;
-                height: 3.3%;
-                bottom: 2.3%;
-                left: 5.5%;
-                border-radius: 45px;
-            }
-
-            &:nth-child(3) {
-                width: 26%;
-                height: 3.3%;
-                bottom: 2.3%;
-                left: 46%;
-                border-radius: 45px;
-            }
-            &:nth-child(4) {
-                width: 23%;
-                height: 3.3%;
-                bottom: 2.3%;
-                right: 3.5%;
+    .exContain {
+        width: 100%;
+        background-color: antiquewhite;
+        // position: relative;
+        .imageContainer1 {
+            position: relative;
+            .one {
+                position: absolute;
+                background: black;
+                opacity: 0.5;
+                cursor: pointer;
+                width: 13%;
+                height: 7%;
+                bottom: 15%;
+                left: 42%;
                 border-radius: 45px;
             }
         }
-    }
+        .exThree {
+            a {
+                position: absolute;
+                background: black;
+                opacity: 0.5;
+                cursor: pointer;
 
-    .imageContainer1 {
+                &:nth-of-type(1) {
+                    width: 39%;
+                    height: 10%;
+                    bottom: 8%;
+                    left: 5.5%;
+                    border-radius: 45px;
+                }
+
+                &:nth-of-type(2) {
+                    width: 26%;
+                    height: 10%;
+                    bottom: 8%;
+                    left: 46%;
+                    border-radius: 45px;
+                }
+                &:nth-of-type(3) {
+                    width: 23%;
+                    height: 10%;
+                    bottom: 8%;
+                    right: 3.5%;
+                    border-radius: 45px;
+                }
+                &:nth-of-type(4) {
+                    width: 23%;
+                    height: 10%;
+                    bottom: 8%;
+                    right: 3.5%;
+                    border-radius: 45px;
+                }
+            }
+        }
+
+        .exFour {
+            a {
+                position: absolute;
+                background: black;
+                opacity: 0;
+                cursor: pointer;
+
+                &:nth-child(2) {
+                    width: 39%;
+                    height: 10%;
+                    bottom: 8%;
+                    left: 5.5%;
+                    border-radius: 45px;
+                }
+
+                &:nth-child(3) {
+                    width: 26%;
+                    height: 10%;
+                    bottom: 8%;
+                    left: 46%;
+                    border-radius: 45px;
+                }
+                &:nth-child(4) {
+                    width: 23%;
+                    height: 10%;
+                    bottom: 8%;
+                    right: 3.5%;
+                    border-radius: 45px;
+                }
+            }
+        }
     }
 }
