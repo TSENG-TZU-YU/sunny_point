@@ -13,7 +13,10 @@ function Mom_page3() {
             <div className="scContain">
                 <div className="imageContainer1 ">
                     <LazyLoadImage src={one} alt="" />
-                    <a className="one" href="https://www.sunnygo.com.tw/web-front/pointExchange" alt="/">
+                    <a className="one" href="https://www.sunnygo.com.tw/static_custom/sunny_point/SunnyPoint.html" alt="/">
+                        {' '}
+                    </a>
+                    <a className="one" href="https://www.sunnygo.com.tw/web-front/home" alt="/">
                         {' '}
                     </a>
                 </div>
