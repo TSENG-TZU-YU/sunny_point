@@ -16,7 +16,7 @@ import Mom_page3 from './Mom_page3';
 import Howapply from './Howapply';
 import Howopen from './Howopen';
 function App() {
-    return <Howopen />;
+    return <Sunnylifepoint />;
 }
 
 export default App;

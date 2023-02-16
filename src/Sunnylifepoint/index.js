@@ -30,7 +30,10 @@ function Sunnylifepoint() {
                     </a>
                 </div>
             </div>
-            <img src={top1} alt="點數活動頁" id="one" />
+            <div className='twoTo'>
+                <img src={top1} alt="點數活動頁" id="one" />
+                <a href="https://www.sunnygo.com.tw/static_custom/11m_active/cooperative.html" alt='/' className='to'>{''}</a>
+            </div>
             <img src={top2} alt="點數活動頁" id="two" />
             <div id="three" className="three"></div>
         </div>

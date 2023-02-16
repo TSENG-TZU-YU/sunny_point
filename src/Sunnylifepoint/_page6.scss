@@ -22,6 +22,20 @@ html {
             }
         }
     }
+    .twoTo{
+        position: relative;
+        .to{
+            position: absolute;
+            cursor: pointer;
+            bottom: 7.8%;
+            left: 50%;
+            transform: translateX(-42%);
+            width: clamp(100px, 20vw, 295px);
+            height: clamp(25px, 4.5vw, 60px);
+            border-radius: 30px;
+            // background: rgba(240, 128, 128, 0.595);
+        }
+    }
     .three {
         position: absolute;
         bottom: 26%;
