@@ -1,5 +1,5 @@
 import './app.scss';
-import React, { useState } from 'react';
+import React from 'react';
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 //sunny point
@@ -9,8 +9,6 @@ import Cooperate from './Cooperate';
 import Exchangemethod from './Exchangemethod';
 import Numberview from './Numberview';
 import Sunnylifepoint from './Sunnylifepoint';
-
-
 import Search from './Search';
 
 // mom
