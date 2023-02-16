@@ -13,7 +13,7 @@ function Sunnylifepoint() {
     return (
         <div className="page6" id="top">
             <Top />
-            <a href="https://www.sunnygo.com.tw/web-front/#/activePanel?id=7">
+            <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/SunnyPoint.html">
                 <Prev />
             </a>
 
