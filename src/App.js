@@ -13,7 +13,7 @@ import Search from './Search';
 
 // mom
 import HowToBe from './Mom_header';
-import MomPlan from './Mom_page3';
+import MomPlan from './MomPlan';
 import Howapply from './Howapply';
 import Howopen from './Howopen';
 

@@ -165,20 +165,16 @@
                         }
                     }
                     & .containBox:hover {
-                        height: 100px;
+                        height: 150px;
                         transition: all 0.5s ease-in;
-                        .icon {
-                            display: none;
-                            transition: all 0.5s ease-in;
-                        }
                     }
                     & .box3:hover {
                         height: 250px;
                         transition: all 0.5s ease-in;
-                        .icon {
-                            display: none;
-                            transition: all 0.5s ease-in;
-                        }
+                    }
+                    & .box1:hover {
+                        height: 200px;
+                        transition: all 0.5s ease-in;
                     }
                 }
             }

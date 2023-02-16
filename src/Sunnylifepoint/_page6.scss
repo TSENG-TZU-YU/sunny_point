@@ -1,9 +1,9 @@
-html {
-    scroll-behavior: smooth;
-}
-
+// html {
+//     scroll-behavior: smooth;
+// }
 .page6 {
     position: relative;
+
     .onePage {
         display: flex;
         justify-content: center;
@@ -11,6 +11,7 @@ html {
         flex-direction: column;
         background: #f6c896;
         padding-top: 45px;
+
         .click {
             display: flex;
             align-items: center;
@@ -22,9 +23,9 @@ html {
             }
         }
     }
-    .twoTo{
+    .twoTo {
         position: relative;
-        .to{
+        .to {
             position: absolute;
             cursor: pointer;
             bottom: 7.8%;

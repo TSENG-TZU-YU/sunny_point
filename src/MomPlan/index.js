@@ -35,7 +35,7 @@ function MomPlan() {
                         <div className="left">
                             <div className="pointBox">
                                 <h4 className="text">Q1.哪些人可以購買團購商品？</h4>
-                                <div className="containBox">
+                                <div className="containBox box1">
                                     <TiArrowSortedDown className="icon" size={30} />
                                     <p>
                                         團媽可將商品連結發給所有人，但會員推薦人須為團媽代碼才能購買
@@ -76,7 +76,7 @@ function MomPlan() {
                                 <h4 className="text">Q4.回饋金額達多少可以請款？</h4>
                                 <div className="containBox">
                                     <TiArrowSortedDown className="icon" size={30} />
-                                    <p>回饋金需500元以上可請款，可隨時請款，需等7-14工作天入帳</p>\
+                                    <p>回饋金需500元以上可請款，可隨時請款，需等7-14工作天入帳</p>
                                 </div>
                             </div>
                         </div>
