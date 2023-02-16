@@ -155,7 +155,7 @@ function Header() {
                 <a href="https://www.sunnygo.com.tw/web-front/store/sunnylife001" alt="/">
                     {' '}
                 </a>
-                <a href="https://www.sunnygo.com.tw/static_custom/11m_active/cooperative.html" alt="/">
+                <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/Sunnylifepoint.html" alt="/">
                     {' '}
                 </a>
                 <a href="https://www.sunnygo.com.tw/static_custom/11m_active/cooperative.html" alt="/">

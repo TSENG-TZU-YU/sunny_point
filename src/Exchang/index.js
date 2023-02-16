@@ -39,28 +39,28 @@ function Exchang() {
                 </div>
                 <div className="imageContainer1 mt exThree">
                     <LazyLoadImage src={three} alt="" />
-                    <a href="https://www.sunnygo.com.tw/web-front/pointExchange" alt="/">
+                    <a href="https://www.sunnygo.com.tw/web-front/productDetails?id=240607" alt="/">
                         {' '}
                     </a>
-                    <a href="https://www.sunnygo.com.tw/web-front/pointExchange" alt="/">
+                    <a href="https://www.sunnygo.com.tw/web-front/productDetails?id=240605" alt="/">
                         {' '}
                     </a>
-                    <a href="https://www.sunnygo.com.tw/web-front/pointExchange" alt="/">
+                    <a href="https://www.sunnygo.com.tw/web-front/productDetails?id=232071" alt="/">
                         {' '}
                     </a>
-                    <a href="https://www.sunnygo.com.tw/web-front/pointExchange" alt="/">
+                    <a href="https://www.sunnygo.com.tw/web-front/productDetails?id=232077" alt="/">
                         {' '}
                     </a>
                 </div>
                 <div className="imageContainer1 mt exFour">
                     <LazyLoadImage src={four} alt="" />
-                    <a href="https://www.sunnygo.com.tw/web-front/pointExchange" alt="/">
+                    <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/Cooperate.html" alt="/">
                         {' '}
                     </a>
-                    <a href="https://www.sunnygo.com.tw/web-front/pointExchange" alt="/">
+                    <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/Exchangemethod.html" alt="/">
                         {' '}
                     </a>
-                    <a href="https://www.sunnygo.com.tw/web-front/pointExchange" alt="/">
+                    <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/Numberview.html" alt="/">
                         {' '}
                     </a>
                 </div>

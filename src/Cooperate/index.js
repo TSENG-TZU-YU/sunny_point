@@ -8,10 +8,11 @@ import top2 from '../assets/three/點數活動頁5-15.png';
 
 import './_page3.scss';
 
-function Page3() {
+function Cooperate() {
     const [down, setDown] = useState(false);
 
     return (
+        // <div>111</div>
         <div className="page3" id="#top">
             <Top />
             <a href="https://www.sunnygo.com.tw/web-front/#/activePanel?id=7">
@@ -20,12 +21,15 @@ function Page3() {
 
             <div className="page-1">
                 <img src={top1} alt="點數活動頁" />
-                <Link to="https://www.sunnygo.com.tw/web-front/pointExchange" className={`link01`}></Link>
-                <Link to="https://hamipoint.cht.com.tw/member/serialno" className={`link02`}></Link>
-                <Link
-                    to="https://www.superpoint.com.tw/login?redirectUrl=%2Fweb%2Fexchange"
-                    className={`link03`}
-                ></Link>
+                <a href="https://www.sunnygo.com.tw/web-front/pointExchange" alt="/" className="link01">
+                    {''}
+                </a>
+                <a href="https://hamipoint.cht.com.tw/member/serialno" alt="/" className="link02">
+                    {''}
+                </a>
+                <a href="https://www.superpoint.com.tw/login?redirectUrl=%2Fweb%2Fexchange" alt="/" className="link03">
+                    {''}
+                </a>
                 <div
                     className={`click`}
                     onClick={() => {
@@ -34,11 +38,9 @@ function Page3() {
                 ></div>
             </div>
 
-            {/* <div className={`cc ${down ? 'expandDown' : 'expandUp'}`}> */}
             <img src={top2} alt="點數活動頁" className={`${down ? 'expandDown' : 'expandUp'}`} />
-            {/* </div> */}
         </div>
     );
 }
 
-export default Page3;
+export default Cooperate;

@@ -5,18 +5,20 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 //sunny point
 import Header from './Header';
 import Exchang from './Exchang';
-import Page3 from './page_3/Page3';
-import Page4 from './page_4/Page4';
-import Page5 from './page_5/Page5';
-import Page6 from './page_6/Page6';
+import Cooperate from './Cooperate';
+import Exchangemethod from './Exchangemethod';
+import Numberview from './Numberview';
+import Sunnylifepoint from './Sunnylifepoint';
 import Search from './Search';
 
 // mom
-import Mom_HowToBe from './Mom_header';
-import Mom_plan from './Mom_page3';
+import HowToBe from './Mom_header';
+import MomPlan from './MomPlan';
+import Howapply from './Howapply';
+import Howopen from './Howopen';
 
 function App() {
-    return <Exchang />;
+    return <HowToBe />;
 }
 
 export default App;

@@ -21,7 +21,6 @@ function Page4() {
             </a>
 
             <div className="onePage">
-                <div>回上一頁</div>
                 <div className="title">點數序號兌換方式</div>
                 <div className="click">
                     <a href="#one">
@@ -37,15 +36,21 @@ function Page4() {
             </div>
             <div className="one1">
                 <img src={top4} alt="點數活動頁" className="one" id="one" />
-                <Link to="https://www.sunnygo.com.tw/web-front/pointExchange" className="link-1"></Link>
+                <a href="https://www.sunnygo.com.tw/web-front/pointExchange" alt="/" className="link-1">
+                    {''}
+                </a>
             </div>
             <div className="one2">
                 <img src={top5} alt="點數活動頁" className="two" id="two" />
-                <Link to="https://hamipoint.cht.com.tw/member/serialno" className="link-2"></Link>
+                <a href="https://hamipoint.cht.com.tw/member/serialno" alt="/" className="link-2">
+                    {''}
+                </a>
             </div>
             <div className="one3">
                 <img src={top6} alt="點數活動頁" className="three" id="three" />
-                <Link to="https://www.superpoint.com.tw/login?redirectUrl=%2Fweb%2Fexchange" className="link-3"></Link>
+                <a href="https://www.superpoint.com.tw/login?redirectUrl=%2Fweb%2Fexchange" alt="/" className="link-3">
+                    {''}
+                </a>
             </div>
         </div>
     );

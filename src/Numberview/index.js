@@ -20,9 +20,15 @@ function Page5() {
 
             <div className="page-01">
                 <img src={top1} alt="點數活動頁" />
-                <Link to="https://www.sunnygo.com.tw/web-front/pointExchange" className={`link1`}></Link>
-                <Link to="https://hamipoint.cht.com.tw/member/serialno" className={`link2`}></Link>
-                <Link to="https://www.superpoint.com.tw/login?redirectUrl=%2Fweb%2Fexchange" className={`link3`}></Link>
+                <a href="https://www.sunnygo.com.tw/web-front/pointExchange" alt="/" className={`link1`}>
+                    {''}
+                </a>
+                <a href="https://hamipoint.cht.com.tw/member/serialno" alt="/" className={`link2`}>
+                    {''}
+                </a>
+                <a href="https://www.superpoint.com.tw/login?redirectUrl=%2Fweb%2Fexchange" alt="/" className={`link3`}>
+                    {''}
+                </a>
                 <div
                     className={`clicked`}
                     onClick={() => {

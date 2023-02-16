@@ -11,7 +11,7 @@ import { Link, animateScroll } from 'react-scroll';
 
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
-function Search() {
+function MomPlan() {
     return (
         <div className="qaContainer">
             <div className="qaContain">
@@ -87,4 +87,4 @@ function Search() {
     );
 }
 
-export default Search;
+export default MomPlan;

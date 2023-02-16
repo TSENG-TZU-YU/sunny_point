@@ -9,7 +9,7 @@ import top3 from '../assets/six/點數活動頁5-28.png';
 import top4 from '../assets/six/點數活動頁5-29.png';
 import top5 from '../assets/six/點數活動頁5-30.png';
 
-function Page6() {
+function Howapply() {
     return (
         <div className="page6" id="top">
             <Top />
@@ -18,8 +18,6 @@ function Page6() {
             </a>
 
             <div className="onePage">
-                <div>回上一頁</div>
-                {/* <div className="title">點數序號兌換方式</div> */}
                 <div className="click">
                     <a href="#one">
                         <img src={top3} alt="點數活動頁" className="clickBtn" />
@@ -39,4 +37,4 @@ function Page6() {
     );
 }
 
-export default Page6;
+export default Howapply;
