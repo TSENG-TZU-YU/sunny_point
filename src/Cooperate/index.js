@@ -13,7 +13,7 @@ function Cooperate() {
     return (
         <div className="page3" id="#top">
             <Top />
-            <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/SunnyPoint.html">
+            <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/Exchang.html">
                 <Prev />
             </a>
 

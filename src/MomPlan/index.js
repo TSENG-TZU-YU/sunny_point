@@ -6,20 +6,32 @@ import one from '../assets/mom/團爸團媽養成計劃-01_01.jpg';
 import two from '../assets/mom/團爸團媽養成計劃-01_02.jpg';
 import qa1 from '../assets/one/SunnyPoint大進擊-32_04.png';
 import qa2 from '../assets/one/SunnyPoint大進擊2-31.png';
-
-import { Link, animateScroll } from 'react-scroll';
-
+import Prev from '../component/Prev_page/index';
+import Top from '../component/top/Top';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function MomPlan() {
     return (
         <div className="qaContainer">
+            <Top />
+            <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/SunnyPoint.html">
+                <Prev />
+            </a>
             <div className="qaContain">
                 <div className="imageContainerQa ">
                     <LazyLoadImage src={one} alt="" />
                 </div>
-                <div className="imageContainerQa ">
+                <div className="imageContainerQa one">
                     <LazyLoadImage src={two} alt="" />
+                    <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/Howapply.html" alt="/">
+                        {' '}
+                    </a>
+                    <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/HowToBe.html" alt="/">
+                        {' '}
+                    </a>
+                    <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/Howopen.html" alt="/">
+                        {' '}
+                    </a>
                 </div>
                 <div id="five" name="five" className="imageContainerQa ">
                     <LazyLoadImage className="five" id="five1" src={qa1} alt="" />
@@ -49,7 +61,7 @@ function MomPlan() {
                                 <h4 className="text">Q3.團購商品可否取消?</h4>
                                 <div className="containBox box3">
                                     <TiArrowSortedDown className="icon" size={30} />
-                                    <p>消費者收到商品後7日內，詳細請參照開團商品廠商退貨規則</p>
+                                    <p>1.消費者收到商品後7日內，詳細請參照開團商品廠商退貨規則</p>
                                     <p>
                                         2.點數等同現金，每1點等同新台幣1元，會員可使用點數兌換陽信商店街商品或是於結帳時選擇全額或部份折抵消費。
                                     </p>

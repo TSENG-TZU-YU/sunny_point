@@ -18,7 +18,7 @@ import Howapply from './Howapply';
 import Howopen from './Howopen';
 
 function App() {
-    return <Cooperate />;
+    return <Exchang />;
 }
 
 export default App;
