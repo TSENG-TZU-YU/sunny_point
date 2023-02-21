@@ -163,7 +163,7 @@
     }
     nav {
         position: absolute;
-        // transition: all 0.4s;
+        transition: all 0.4s;
         cursor: pointer;
 
         &:nth-child(2) {
@@ -233,7 +233,7 @@
             justify-content: center;
             flex-direction: column;
             align-items: center;
-            top: 80px;
+            top: 12%;
             .left {
                 width: 90%;
             }
@@ -245,7 +245,7 @@
         @media only screen and (min-width: 576px) {
             display: flex;
             justify-content: center;
-            top: 220px;
+            top: 30%;
 
             .left {
                 width: 45%;
@@ -261,7 +261,12 @@
         width: 100%;
 
         .pointBox {
-            width: 80%;
+            @media only screen and (max-width: 576px) {
+                width: 90%;
+            }
+            @media only screen and (min-width: 576px) {
+                width: 80%;
+            }
             background: rgb(41, 60, 96);
             color: white;
             border-radius: 20px;
@@ -309,8 +314,6 @@
 .container {
     width: 100%;
     overflow: hidden;
-    scroll-behavior: smooth;
-
     .fixed {
         position: fixed;
         display: flex;

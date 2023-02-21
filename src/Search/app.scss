@@ -13,9 +13,9 @@
 @mixin h1 {
     font-size: clamp(24px, 5vw, 7vw);
 }
-html {
-    scroll-behavior: smooth;
-}
+// html {
+//     scroll-behavior: smooth;
+// }
 .scContainer {
     height: 100%;
     width: 100%;
