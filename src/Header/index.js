@@ -17,7 +17,8 @@ import { AiOutlineLeft } from 'react-icons/ai';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import { TiArrowSortedDown } from 'react-icons/ti';
-// import PrevPage from '../component/Prev_page';
+import { IoIosArrowForward } from 'react-icons/io';
+import Top from '../component/top/Top';
 
 function Header() {
     var scroll = animateScroll;
@@ -26,87 +27,48 @@ function Header() {
 
     return (
         <div id="container" className="container">
-            {/* <a href="https://www.sunnygo.com.tw/web-front/#/activePanel?id=7">
-                <PrevPage />
-            </a> */}
-
+            <a href="https://www.sunnygo.com.tw/web-front/home">
+                <div className="prev">
+                    陽信商店街購物
+                    <IoIosArrowForward />
+                </div>
+            </a>
+            <Top />
             <div className={show ? 'fixed' : 'fixed fixedActive'}>
-                {/* <div onClick={handleShow('hide')} className="top"></div> */}
-
                 <div onClick={handleShow('hide')} className="fixedItem">
                     <LazyLoadImage className="top" src={topStar} alt="" />
                     Sunny
                     <br />
                     Point
                 </div>
-                <Link
-                    href="#one"
-                    to="one"
-                    spy={true}
-                    smooth={true}
-                    className="fixedItem"
-                    activeClass="fixedItem active"
-                >
+                <Link href="#one" to="one" spy={true} className="fixedItem" activeClass="fixedItem active">
                     賞利點 <br />
                     介紹
                 </Link>
-                <Link
-                    href="#two"
-                    to="two"
-                    spy={true}
-                    smooth={true}
-                    className="fixedItem"
-                    activeClass="fixedItem active"
-                >
+                <Link href="#two" to="two" spy={true} className="fixedItem" activeClass="fixedItem active">
                     賞利點 <br />
                     集點
                 </Link>
-                <Link
-                    href="#three"
-                    to="three"
-                    spy={true}
-                    smooth={true}
-                    className="fixedItem"
-                    activeClass="fixedItem active"
-                >
+                <Link href="#three" to="three" spy={true} className="fixedItem" activeClass="fixedItem active">
                     賞利點 <br />
                     兌換
                 </Link>
-                <Link
-                    href="#four"
-                    to="four"
-                    spy={true}
-                    smooth={true}
-                    className="fixedItem"
-                    activeClass="fixedItem active"
-                >
+                <Link href="#four" to="four" spy={true} className="fixedItem" activeClass="fixedItem active">
                     下載APP
                 </Link>
-                <Link
-                    href="#five"
-                    to="five"
-                    spy={true}
-                    smooth={true}
-                    className="fixedItem"
-                    activeClass="fixedItem active"
-                >
+                <Link href="#five" to="five" spy={true} className="fixedItem" activeClass="fixedItem active">
                     點數規則
                 </Link>
-                <div
-                    onClick={() => {
-                        scroll.scrollToTop();
-                    }}
-                    className="fixedItem"
-                >
-                    ▲TOP
-                </div>
+                {/* <a href="#top" className="fixedItem">
+                    <div> ▲TOP</div>
+                </a> */}
             </div>
 
             <div className="imageContainer">
                 <img src={top} alt="" />
             </div>
 
-            <div id="one" name="one" className="imageContainer">
+            <div id="one" name="one" className="imageContainer one">
                 <LazyLoadImage src={one} alt="" />
                 <nav>
                     <LazyLoadImage src={one_app} alt="" />
@@ -120,11 +82,17 @@ function Header() {
                 <nav>
                     <LazyLoadImage src={one_circle3} alt="" />
                 </nav>
+                <Link href="#two" to="two" spy={true} alt="/">
+                    {' '}
+                </Link>
+                <Link href="#three" to="three" spy={true} alt="/">
+                    {' '}
+                </Link>
             </div>
             <div id="two" name="two" className="imageContainer two">
                 <LazyLoadImage src={two} alt="" />
 
-                <a href="https://www.sunnygo.com.tw/web-front/#/store/sunnyfan" alt="/">
+                <a href="https://www.sunnygo.com.tw/web-front/registerPage/fillPhone" alt="/">
                     {' '}
                 </a>
                 <a href="https://www.sunnygo.com.tw/web-front/home" alt="/">

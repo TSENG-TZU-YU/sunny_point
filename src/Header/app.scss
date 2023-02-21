@@ -24,6 +24,29 @@
 .mt {
     margin-top: 50px;
 }
+.one {
+    a {
+        position: absolute;
+        background: black;
+        opacity: 0;
+        cursor: pointer;
+
+        &:nth-of-type(1) {
+            width: 38.5%;
+            height: 14.5%;
+            bottom: 4.2%;
+            left: 11.5%;
+            border-radius: 100px 0 0 100px;
+        }
+        &:nth-of-type(2) {
+            width: 38.5%;
+            height: 14.5%;
+            bottom: 4.2%;
+            right: 11.5%;
+            border-radius: 0 100px 100px 0;
+        }
+    }
+}
 .two {
     a {
         position: absolute;
@@ -159,7 +182,7 @@
     width: 100vw;
     position: relative;
     .five {
-        height: 100vh;
+        height: 105vh;
     }
     nav {
         position: absolute;

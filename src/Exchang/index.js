@@ -26,15 +26,15 @@ function Exchang() {
             </div>
             <div className="nav">
                 <div className="index ">
-                    <LazyLoadImage src={top1} alt="" />
+                  <a href="#one"><LazyLoadImage src={top1} alt="" /></a>  
                 </div>
                 <div className="index ">
-                    <LazyLoadImage src={top2} alt="" />
+                    <a href="#three"><LazyLoadImage src={top2} alt="" /></a>
                 </div>
             </div>
             <div className="exContain">
                 <div className="imageContainer1 ">
-                    <LazyLoadImage src={one} alt="" />
+                    <LazyLoadImage id='one' src={one} alt="" />
                     <a className="one" href="https://www.sunnygo.com.tw/web-front/pointExchange" alt="/">
                         {' '}
                     </a>
@@ -43,7 +43,7 @@ function Exchang() {
                     <LazyLoadImage src={two} alt="" />
                 </div>
                 <div className="imageContainer1 mt exThree">
-                    <LazyLoadImage src={three} alt="" />
+                    <LazyLoadImage id='three' src={three} alt="" />
                     <a href="https://www.sunnygo.com.tw/web-front/productDetails?id=240607" alt="/">
                         {' '}
                     </a>

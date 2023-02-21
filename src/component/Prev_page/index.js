@@ -5,7 +5,7 @@ import { IoIosArrowForward } from 'react-icons/io';
 function Prev_page() {
     return (
         <div className="prev">
-            回上一頁
+            上一頁
             <IoIosArrowForward />
         </div>
     );
