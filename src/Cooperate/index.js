@@ -17,7 +17,7 @@ function Cooperate() {
                 <Prev />
             </a>
 
-            <div className="page-1">
+            <div className={`page-1 ${down ? '' : 'marginB'}`}>
                 <img src={top1} alt="點數活動頁" />
                 <a href="https://www.sunnygo.com.tw/web-front/pointExchange" alt="/" className="link01">
                     {''}
@@ -35,8 +35,18 @@ function Cooperate() {
                     }}
                 ></div>
             </div>
-
-            <img src={top2} alt="點數活動頁" className={`${down ? 'expandDown' : 'expandUp'}`} />
+            <div className={`page-2 ${down ? 'expandDown' : 'expandUp'}`}>
+                <img src={top2} alt="點數活動頁" />
+                <a href="https://www.sunnygo.com.tw/web-front/pointExchange" alt="/" className="link-01">
+                    {''}
+                </a>
+                <a href="https://hamipoint.cht.com.tw/member/serialno" alt="/" className="link-02">
+                    {''}
+                </a>
+                <a href="https://www.superpoint.com.tw/login?redirectUrl=%2Fweb%2Fexchange" alt="/" className="link-03">
+                    {''}
+                </a>
+            </div>
         </div>
     );
 }
