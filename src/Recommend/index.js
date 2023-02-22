@@ -26,13 +26,21 @@ function Recommend() {
                     <LazyLoadImage src={one} alt="" />
                 </div>
             </div>
-            <div className="btnContain">
-                <LazyLoadImage src={five} alt="" className="btnIcon" />
-                <LazyLoadImage src={six} alt="" className="btnIcon" />
-                <LazyLoadImage src={seven} alt="" className="btnIcon" />
+            <div className="btnContainer">
+                <div className="btnContain">
+                    <div className="btnIcons">
+                        <LazyLoadImage src={five} alt="" className="btnIcon" />
+                    </div>
+                    <div className="btnIcons">
+                        <LazyLoadImage src={six} alt="" className="btnIcon" />
+                    </div>
+
+                    <div className="btnIcons">
+                        <LazyLoadImage src={seven} alt="" className="btnIcon" />
+                    </div>
+                </div>
             </div>
             <LazyLoadImage src={two} alt="" className="btnIcon" />
-
         </div>
     );
 }
