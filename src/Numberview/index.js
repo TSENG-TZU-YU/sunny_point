@@ -17,7 +17,7 @@ function Numberview() {
                 <Prev />
             </a>
 
-            <div className="page-01">
+            <div className={`page-01 ${down ? '' : 'marB'}`}>
                 <img src={top1} alt="點數活動頁" />
                 <a href="https://www.sunnygo.com.tw/web-front/pointExchange" alt="/" className={`link1`}>
                     {''}
@@ -35,8 +35,18 @@ function Numberview() {
                     }}
                 ></div>
             </div>
-
-            <img src={top2} alt="點數活動頁" className={`${down ? 'down' : 'up'}`} />
+            <div className={`page-02 ${down ? 'down' : 'up'}`}>
+                <img src={top2} alt="點數活動頁" className={`${down ? 'down' : 'up'}`} />
+                <a href="https://www.sunnygo.com.tw/web-front/pointExchange" alt="/" className="linkOne">
+                    {''}
+                </a>
+                <a href="https://hamipoint.cht.com.tw/member/serialno" alt="/" className="linkTwo">
+                    {''}
+                </a>
+                <a href="https://www.superpoint.com.tw/login?redirectUrl=%2Fweb%2Fexchange" alt="/" className="linkThr">
+                    {''}
+                </a>
+            </div>
         </div>
     );
 }

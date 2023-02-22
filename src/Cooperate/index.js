@@ -36,7 +36,7 @@ function Cooperate() {
                 ></div>
             </div>
             <div className={`page-2 ${down ? 'expandDown' : 'expandUp'}`}>
-                <img src={top2} alt="點數活動頁" />
+                <img src={top2} alt="點數活動頁" className={`${down ? 'expandDown' : 'expandUp'}`}/>
                 <a href="https://www.sunnygo.com.tw/web-front/pointExchange" alt="/" className="link-01">
                     {''}
                 </a>
