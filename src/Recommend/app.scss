@@ -1,16 +1,22 @@
 .reContainer {
     height: 100%;
     width: 100%;
+
+    .imageContainer1 {
+        background-color: #8dace2;
+    }
+
     .btnContain {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: #8dace2;
-            .btnIcon{
-                background: lightcoral;
-                border-radius: 60px;
-                width: 350px;
-                height: 60px;
-            }
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #8dace2;
+
+        .btnIcon {
+            background: lightcoral;
+            border-radius: 60px;
+            width: 350px;
+            height: 60px;
         }
+    }
 }
