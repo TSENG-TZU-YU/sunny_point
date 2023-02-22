@@ -1,5 +1,5 @@
 .page4 {
-    position: relative;
+    // position: relative;
     .onePage {
         display: flex;
         justify-content: center;
@@ -7,44 +7,79 @@
         flex-direction: column;
         padding-top: 35px;
         background: #3683cb;
-        .title {
-            position: relative;
-            font-size: clamp(20px, 3.5vw, 48px);
-            font-weight: 600;
-            color: #fff;
-            &::before {
-                position: absolute;
-                content: '';
-                width: 345px;
-                height: 35px;
-                border-top: 3px solid #fff;
-                border-left: 3px solid #fff;
-                top: 50%;
-                right: 103%;
-            }
-            &::after {
-                position: absolute;
-                content: '';
-                width: 345px;
-                height: 35px;
-                border-top: 3px solid #fff;
-                border-right: 3px solid #fff;
-                top: 50%;
-                left: 103%;
-            }
-        }
+        position: relative;
+        
         .click {
+            max-width: 90%;
+            margin-bottom: 5px;
+        }
+        .clickBtn-1 {
+            position: absolute;
+            top: 61%;
+            left: 8%;
+            width: clamp(100px, 26vw, 390px);
+            height: clamp(30px, 6vw, 90px);
+            border-radius: 50px;
+            // background: rgba(240, 128, 128, 0.616);
+        }
+        .clickBtn-2 {
+            position: absolute;
+            top: 61%;
+            left: 37%;
+            width: clamp(100px, 26vw, 390px);
+            height: clamp(30px, 6vw, 90px);
+            border-radius: 50px;
+            // background: rgba(128, 240, 173, 0.616);
+        }
+        .clickBtn-3 {
+            position: absolute;
+            top: 61%;
+            left: 66%;
+            width: clamp(100px, 26vw, 390px);
+            height: clamp(30px, 6vw, 90px);
+            border-radius: 50px;
+            // background: rgba(240, 128, 128, 0.616);
+        }
+    }
+
+    .scrollBar {
+        // background: #3683cb;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .scroll {
             display: flex;
+            justify-content: space-between;
             align-items: center;
-            margin-top: 30px;
-            .clickBtn {
-                background: #c9dcbf;
+            position: fixed;
+            z-index: 30;
+            // background: lightcoral;
+            width: 85%;
+            top: 2px;
+            .scroll-1,
+            .scroll-2,
+            .scroll-3 {
+                // background: #eee;
                 border-radius: 100px;
-                width: 320px;
-                height: 60px;
-                margin: 0 15px;
-                cursor: pointer;
-                z-index: 10;
+                width: clamp(90px, 26vw, 320px);
+                height: clamp(18px, 5vw, 60px);
+            }
+            .nowClick {
+                background: #eee;
+                border-radius: 100px;
+                width: clamp(90px, 26vw, 320px);
+                height: clamp(18px, 5vw, 60px);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &:hover {
+                    background: rgb(251, 235, 78);
+                }
+            }
+            .onClick {
+                border-radius: 100px;
+                background: rgb(251, 235, 78);
+              
             }
         }
     }
@@ -96,52 +131,3 @@
     }
 }
 
-@media screen and (max-width: 1200px) {
-    .page4 {
-        .onePage {
-            .title {
-                &::before {
-                    width: 270px;
-                    border-top: 2px solid #fff;
-                    border-left: 2px solid #fff;
-                }
-                &::after {
-                    width: 270px;
-                    border-top: 2px solid #fff;
-                    border-right: 2px solid #fff;
-                }
-            }
-            .click {
-                .clickBtn {
-                    width: 240px;
-                    height: 55px;
-                }
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .page4 {
-        .onePage {
-            .title {
-                &::before {
-                    width: 100px;
-                    height: 25px;
-                }
-                &::after {
-                    width: 100px;
-                    height: 25px;
-                }
-            }
-            .click {
-                margin-top: 20px;
-                .clickBtn {
-                    width: 100px;
-                    height: 25px;
-                    margin: 0 10px;
-                }
-            }
-        }
-    }
-}

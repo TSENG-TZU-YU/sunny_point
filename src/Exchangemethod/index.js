@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState, useRef, useEffect } from 'react';
+import { Link } from 'react-scroll';
 
 import './_page4.scss';
 
@@ -8,11 +8,28 @@ import Prev from '../component/Prev_page/index';
 import top1 from '../assets/four/點數活動頁5-16.png';
 import top2 from '../assets/four/點數活動頁5-17.png';
 import top3 from '../assets/four/點數活動頁5-18.png';
-import top4 from '../assets/four/點數活動頁5-19.png';
+import top4 from '../assets/four/點數活動頁4-1-09.png';
 import top5 from '../assets/four/點數活動頁5-20.png';
 import top6 from '../assets/four/點數活動頁5-21.png';
+import top7 from '../assets/four/點數活動頁4-10-10.png';
 
 function Exchangemethod() {
+    const [scrollDown, setScrollDown] = useState(false);
+    const [loading, setLoading] = useState(false);
+
+    const scrollRef = useRef();
+    let scrollHeight = '';
+    useEffect(() => {
+        scrollHeight = scrollRef.current.offsetHeight;
+        // console.log(scrollHeight);
+    }, [loading]);
+
+    window.addEventListener('scroll', () => {
+        let scrollNow = window.scrollY;
+        // console.log('object', scrollNow);
+        scrollNow + 5 > scrollHeight ? setScrollDown(true) : setScrollDown(false);
+        setLoading(!loading);
+    });
     return (
         <div className="page4" id="#top">
             <Top />
@@ -20,20 +37,36 @@ function Exchangemethod() {
                 <Prev />
             </a>
 
-            <div className="onePage">
-                <div className="title">點數序號兌換方式</div>
-                <div className="click">
-                    <a href="#one">
-                        <img src={top1} alt="點數活動頁" className="clickBtn" />
-                    </a>
-                    <a href="#two">
-                        <img src={top2} alt="點數活動頁" className="clickBtn" />
-                    </a>
-                    <a href="#three">
-                        <img src={top3} alt="點數活動頁" className="clickBtn" />
-                    </a>
-                </div>
+            <div className={`onePage`} ref={scrollRef}>
+                <img src={top7} alt="點數活動頁" className="click" />
+                <Link href="#one" to="one" spy={true} className="clickBtn-1">
+                    {''}
+                </Link>
+                <Link href="#two" to="two" spy={true} className="clickBtn-2">
+                    {''}
+                </Link>
+                <Link href="#three" to="three" spy={true} className="clickBtn-3">
+                    {''}
+                </Link>
             </div>
+            {scrollDown ? (
+                <div className="scrollBar">
+                    <div className="scroll">
+                        <Link href="#one" to="one" spy={true} activeClass="onClick" className="nowClick">
+                            <img src={top1} alt="點數活動頁" className={`scroll-1`} />
+                        </Link>
+                        <Link href="#two" to="two" spy={true} activeClass="onClick" className="nowClick">
+                            <img src={top2} alt="點數活動頁" className={`scroll-2`} />
+                        </Link>
+                        <Link href="#three" to="three" spy={true} activeClass="onClick" className="nowClick">
+                            <img src={top3} alt="點數活動頁" className={`scroll-3`} />
+                        </Link>
+                    </div>
+                </div>
+            ) : (
+                ''
+            )}
+
             <div className="one1">
                 <img src={top4} alt="點數活動頁" className="one" id="one" />
                 <a href="https://www.sunnygo.com.tw/web-front/pointExchange" alt="/" className="link-1">
