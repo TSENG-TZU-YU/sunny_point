@@ -12,46 +12,7 @@
         padding-top: 35px;
         background: #3683cb;
         position: relative;
-        // .title {
-        //     position: relative;
-        //     font-size: clamp(20px, 3.5vw, 48px);
-        //     font-weight: 600;
-        //     color: #fff;
-        //     &::before {
-        //         position: absolute;
-        //         content: '';
-        //         width: 345px;
-        //         height: 35px;
-        //         border-top: 3px solid #fff;
-        //         border-left: 3px solid #fff;
-        //         top: 50%;
-        //         right: 103%;
-        //     }
-        //     &::after {
-        //         position: absolute;
-        //         content: '';
-        //         width: 345px;
-        //         height: 35px;
-        //         border-top: 3px solid #fff;
-        //         border-right: 3px solid #fff;
-        //         top: 50%;
-        //         left: 103%;
-        //     }
-        // }
-        // .click {
-        //     display: flex;
-        //     align-items: center;
-        //     margin-top: 30px;
-        //     .clickBtn {
-        //         background: #c9dcbf;
-        //         border-radius: 100px;
-        //         width: 320px;
-        //         height: 60px;
-        //         margin: 0 15px;
-        //         cursor: pointer;
-        //         z-index: 10;
-        //     }
-        // }
+        
         .click {
             max-width: 90%;
             margin-bottom: 5px;
@@ -63,7 +24,7 @@
             width: clamp(100px, 26vw, 390px);
             height: clamp(30px, 6vw, 90px);
             border-radius: 50px;
-            background: rgba(240, 128, 128, 0.616);
+            // background: rgba(240, 128, 128, 0.616);
         }
         .clickBtn-2 {
             position: absolute;
@@ -72,7 +33,7 @@
             width: clamp(100px, 26vw, 390px);
             height: clamp(30px, 6vw, 90px);
             border-radius: 50px;
-            background: rgba(128, 240, 173, 0.616);
+            // background: rgba(128, 240, 173, 0.616);
         }
         .clickBtn-3 {
             position: absolute;
@@ -81,7 +42,7 @@
             width: clamp(100px, 26vw, 390px);
             height: clamp(30px, 6vw, 90px);
             border-radius: 50px;
-            background: rgba(240, 128, 128, 0.616);
+            // background: rgba(240, 128, 128, 0.616);
         }
     }
 
@@ -174,53 +135,3 @@
     }
 }
 
-// @media screen and (max-width: 1200px) {
-//     .page4 {
-//         .onePage {
-//             .title {
-//                 &::before {
-//                     width: 270px;
-//                     border-top: 2px solid #fff;
-//                     border-left: 2px solid #fff;
-//                 }
-//                 &::after {
-//                     width: 270px;
-//                     border-top: 2px solid #fff;
-//                     border-right: 2px solid #fff;
-//                 }
-//             }
-//             .click {
-//                 max-width: 90%;
-//                 // .clickBtn {
-//                 //     width: 240px;
-//                 //     height: 55px;
-//                 // }
-//             }
-//         }
-//     }
-// }
-
-// @media screen and (max-width: 900px) {
-//     .page4 {
-//         .onePage {
-//             .title {
-//                 &::before {
-//                     width: 100px;
-//                     height: 25px;
-//                 }
-//                 &::after {
-//                     width: 100px;
-//                     height: 25px;
-//                 }
-//             }
-//             // .click {
-//             //     margin-top: 20px;
-//             //     .clickBtn {
-//             //         width: 100px;
-//             //         height: 25px;
-//             //         margin: 0 10px;
-//             //     }
-//             // }
-//         }
-//     }
-// }

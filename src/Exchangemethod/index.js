@@ -37,21 +37,6 @@ function Exchangemethod() {
                 <Prev />
             </a>
 
-            {/* <div className="onePage">
-                <div className="title">點數序號兌換方式</div>
-                <div className="click">
-                    <a href="#one">
-                        <img src={top1} alt="點數活動頁" className="clickBtn" />
-                    </a>
-                    <a href="#two">
-                        <img src={top2} alt="點數活動頁" className="clickBtn" />
-                    </a>
-                    <a href="#three">
-                        <img src={top3} alt="點數活動頁" className="clickBtn" />
-                    </a>
-                </div>
-            </div> */}
-
             <div className={`onePage`} ref={scrollRef}>
                 <img src={top7} alt="點數活動頁" className="click" />
                 <Link href="#one" to="one" spy={true} className="clickBtn-1">

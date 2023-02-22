@@ -2,8 +2,8 @@ import { React, useState } from 'react';
 import './_momPage4.scss';
 import Top from '../component/top/Top';
 import Prev from '../component/Prev_page/index';
-import top1 from '../assets/mom/如何成為團媽頁面-04_01.jpg';
-import top2 from '../assets/mom/如何成為團媽頁面-04_02.jpg';
+import top1 from '../assets/mom/0221如何成為團媽頁面-04_01.jpg';
+import top2 from '../assets/mom/0221如何成為團媽頁面-04_02.jpg';
 
 function Howopen() {
     const [down, setDown] = useState(false);
