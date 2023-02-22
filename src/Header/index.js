@@ -35,7 +35,7 @@ function Header() {
             </a>
             <Top />
             <div className={show ? 'fixed' : 'fixed fixedActive'}>
-                <div onClick={handleShow('hide')} className="fixedItem">
+                <div onClick={handleShow('hide')} className="fixedItem" >
                     <LazyLoadImage className="top" src={topStar} alt="" />
                     Sunny
                     <br />
@@ -120,7 +120,7 @@ function Header() {
                 <a href="https://www.sunnygo.com.tw/web-front/home" alt="/">
                     {' '}
                 </a>
-                <a href="https://www.sunnygo.com.tw/web-front/pointExchange" alt="/">
+                <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/Exchang.html" alt="/">
                     {' '}
                 </a>
                 <a href="https://www.sunnygo.com.tw/web-front/store/sunnylife001" alt="/">
@@ -192,7 +192,7 @@ function Header() {
                                 </p>
                                 <p>
                                     5.會員專屬APP，可輕鬆掌握「Sunny
-                                    Life賞利點」生活圈共享伙伴包括餐廳、咖啡廳、旅遊、樂園、健身房、電影院、停車、保險等點數累積/折抵/兌換等資訊(本項服務由陽信電子商務股份有限公司提供開放)
+                                    Life賞利點」生活圈共享伙伴包括餐廳、咖啡廳、旅遊、樂園、健身房、電影院、停車、保險等點數累積/折抵/兌換等資訊(本項服務由陽信電子商務股份有限公司提供開放)。
                                 </p>
                             </div>
                         </div>
@@ -211,7 +211,7 @@ function Header() {
                                 </p>
                                 <p>
                                     4.如對「Sunny
-                                    Life賞利點」有任何的疑問，可直接E-mail至servicevip@sunnygo.com.tw或是在「連絡我們」留下您的問題https://www.sunnygo.com.tw/sunnygo/index.php?action=contact，將由專人協助您排除問題
+                                    Life賞利點」有任何的疑問，可直接E-mail至servicevip@sunnygo.com.tw或是在「連絡我們」留下您的問題https://www.sunnygo.com.tw/sunnygo/index.php?action=contact，將由專人協助您排除問題。
                                 </p>
                             </div>
                         </div>
@@ -224,11 +224,10 @@ function Header() {
                                 <TiArrowSortedDown className="icon" size={30} />
                                 {/* <h3 className="icon"  size={30}>▼</h3> */}
                                 <p>
-                                    1.只要登入陽信商店街網站 https://www.sunnygo.com.tw
-                                    或是下載陽信SUNNY購APP註冊成為會員，可同時擁有陽信商店街「Sunny Go」與「Sunny
+                                    只要登入陽信商店街網站https://www.sunnygo.com.tw或是下載陽信Sunny購APP註冊成為會員，可同時擁有陽信商店街「Sunny
+                                    Go」與「Sunny
                                     Life賞利點」的會員資格。新會員註冊選擇手機綁定即贈送100點獎勵(使用期限90天)
                                 </p>
-                                <p>2.下載Sunnygo App首次登入再得50點(本公司有隨時終止活動之權利)</p>
                             </div>
                         </div>
                         <div className="pointBox">

@@ -16,9 +16,10 @@ import HowToBe from './Mom_header';
 import MomPlan from './MomPlan';
 import Howapply from './Howapply';
 import Howopen from './Howopen';
+import GroupBuying from './GroupBuying';
 
 function App() {
-    return <Header />;
+    return <GroupBuying />;
 }
 
 export default App;

@@ -12,12 +12,13 @@ import { Link, animateScroll } from 'react-scroll';
 import Top from '../component/top/Top';
 import Prev from '../component/Prev_page/index';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import Swiper from '../component/Swiper';
 
 function Exchang() {
     return (
         <div className="exContainer">
-           <Top />
-           <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/SunnyPoint.html">
+            <Top />
+            <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/SunnyPoint.html">
                 <Prev />
             </a>
             <div className="title">
@@ -25,16 +26,20 @@ function Exchang() {
                 <div className="line"></div>
             </div>
             <div className="nav">
-                <div className="index ">
-                  <a href="#one"><LazyLoadImage src={top1} alt="" /></a>  
+                <div className="index1 ">
+                    <a href="#one">
+                        <LazyLoadImage src={top1} alt="" />
+                    </a>
                 </div>
-                <div className="index ">
-                    <a href="#three"><LazyLoadImage src={top2} alt="" /></a>
+                <div className="index2 ">
+                    <a href="#three">
+                        <LazyLoadImage src={top2} alt="" />
+                    </a>
                 </div>
             </div>
             <div className="exContain">
                 <div className="imageContainer1 ">
-                    <LazyLoadImage id='one' src={one} alt="" />
+                    <LazyLoadImage id="one" src={one} alt="" />
                     <a className="one" href="https://www.sunnygo.com.tw/web-front/pointExchange" alt="/">
                         {' '}
                     </a>
@@ -43,17 +48,12 @@ function Exchang() {
                     <LazyLoadImage src={two} alt="" />
                 </div>
                 <div className="imageContainer1 mt exThree">
-                    <LazyLoadImage id='three' src={three} alt="" />
-                    <a href="https://www.sunnygo.com.tw/web-front/productDetails?id=240607" alt="/">
-                        {' '}
-                    </a>
-                    <a href="https://www.sunnygo.com.tw/web-front/productDetails?id=240605" alt="/">
-                        {' '}
-                    </a>
-                    <a href="https://www.sunnygo.com.tw/web-front/productDetails?id=232071" alt="/">
-                        {' '}
-                    </a>
-                    <a href="https://www.sunnygo.com.tw/web-front/productDetails?id=232077" alt="/">
+                    <LazyLoadImage id="three" src={three} alt="" />
+
+                    <div className="swiper">
+                        <Swiper />
+                    </div>
+                    <a href="https://www.sunnygo.com.tw/web-front/store/sunnylife001" alt="/">
                         {' '}
                     </a>
                 </div>

@@ -1,0 +1,57 @@
+.swiper-bar {
+    //   按鈕樣式 上一張
+    .swiper-button-prev {
+        left: 0;
+        color: #f2f2f2;
+        width: 1%;
+        height: 10%;
+
+        @media only screen and (max-width: 576px) {
+            top: 25%;
+        }
+        @media only screen and (min-width: 576px) {
+            top: 33%;
+        }
+        background-color: #33333372;
+        margin: 0;
+        padding: 1%;
+    }
+
+    //   按鈕樣式 下一張
+    .swiper-button-next {
+        right: 0;
+        color: #f2f2f2;
+        width: 1%;
+        height: 10%;
+
+        @media only screen and (max-width: 576px) {
+            top: 25%;
+        }
+        @media only screen and (min-width: 576px) {
+            top: 33%;
+        }
+
+        background-color: #33333372;
+        margin: 0;
+        padding: 1%;
+    }
+    .swiper-button-next:after,
+    .swiper-button-prev:after {
+        font-family: swiper-icons;
+        font-size: clamp(10px, 3vw, 5vw);
+        text-transform: none !important;
+        letter-spacing: 0;
+        font-variant: initial;
+        line-height: 1;
+    }
+    .swiper-pagination-bullet {
+        width:clamp(1px, 2vw, 10px);
+        height: clamp(1px, 2vw, 10px);
+    }
+    
+    .swiper-pagination-bullet-active {
+      background-color: #f5cb92;
+      width:clamp(1px, 2vw, 10px);
+      height: clamp(1px, 2vw, 10px);
+    }
+}

@@ -36,14 +36,18 @@
     .nav {
         display: flex;
         margin: 0 3% -3.3%;
-        .index {
+        .index1 {
             z-index: 2;
-            margin-top: 20px;
+            margin-top: 24px;
+        }
+        .index2 {
+            z-index: 2;
+            margin-top: 25px;
         }
     }
     .exContain {
         width: 100%;
-        background-color: antiquewhite;
+        background-color: #f5cb92;
         // position: relative;
         .imageContainer1 {
             position: relative;
@@ -60,6 +64,33 @@
             }
         }
         .exThree {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            .swiper {
+                position: absolute;
+                width: 90%;
+                height: 79%;
+                top: 14%;
+                display: flex;
+                justify-content: center;
+
+                a {
+                    position: absolute;
+                    background: black;
+                    opacity: 0;
+                    cursor: pointer;
+
+                    &:nth-of-type(1) {
+                        width: 69%;
+                        height: 13%;
+                        top: 78%;
+                        // bottom: 15%;
+                        left: 12.6%;
+                        border-radius: 45px;
+                    }
+                }
+            }
             a {
                 position: absolute;
                 background: black;
@@ -67,33 +98,12 @@
                 cursor: pointer;
 
                 &:nth-of-type(1) {
-                    width: 13%;
-                    height: 6%;
-                    bottom: 26%;
-                    left: 11.3%;
+                    width: 17%;
+                    height: 8%;
+                    bottom: 2%;
+                    right: 39.5%;
                     border-radius: 45px;
-                }
-
-                &:nth-of-type(2) {
-                    width: 13%;
-                    height: 6%;
-                    bottom: 26%;
-                    left: 32.3%;
-                    border-radius: 45px;
-                }
-                &:nth-of-type(3) {
-                    width: 12.5%;
-                    height: 6%;
-                    bottom: 26%;
-                    right: 34%;
-                    border-radius: 45px;
-                }
-                &:nth-of-type(4) {
-                    width: 12.5%;
-                    height: 6%;
-                    bottom: 26%;
-                    right: 13%;
-                    border-radius: 45px;
+                    z-index: 10;
                 }
             }
         }
