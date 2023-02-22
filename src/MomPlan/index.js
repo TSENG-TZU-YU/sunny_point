@@ -18,20 +18,24 @@ function MomPlan() {
                 <Prev />
             </a>
             <div className="qaContain">
-                <div className="imageContainerQa ">
-                    <LazyLoadImage src={one} alt="" />
-                </div>
                 <div className="imageContainerQa one">
-                    <LazyLoadImage src={two} alt="" />
+                    <LazyLoadImage src={one} alt="" />
                     <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/Howapply.html" alt="/">
                         {' '}
                     </a>
-                    <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/HowToBe.html" alt="/">
+                    <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/Howapply.html" alt="/">
                         {' '}
                     </a>
                     <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/Howopen.html" alt="/">
                         {' '}
                     </a>
+                    <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/Howopen.html" alt="/">
+                        {' '}
+                    </a>
+                </div>
+                <div className="imageContainerQa ">
+                    <LazyLoadImage src={two} alt="" />
+                 
                 </div>
                 <div id="five" name="five" className="imageContainerQa ">
                     <LazyLoadImage className="five" id="five1" src={qa1} alt="" />

@@ -16,9 +16,10 @@ import MomPlan from './MomPlan';
 import Howapply from './Howapply';
 import Howopen from './Howopen';
 import GroupBuying from './GroupBuying';
+import Recommend from './Recommend';
 
 function App() {
-    return <GroupBuying />;
+    return <Recommend />;
 }
 
 export default App;

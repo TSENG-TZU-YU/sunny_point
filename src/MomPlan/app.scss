@@ -37,28 +37,36 @@
             a {
                 position: absolute;
                 background: black;
-                opacity: 0;
+                opacity: 0.5;
                 cursor: pointer;
 
                 &:nth-of-type(1) {
                     width: 34%;
-                    height: 7%;
-                    bottom: 8%;
+                    height: 5%;
+                    bottom: 48.6%;
                     left: 11.3%;
                     border-radius: 45px;
                 }
 
                 &:nth-of-type(2) {
                     width: 34%;
-                    height: 7%;
-                    bottom: 18%;
-                    left: 33%;
+                    height: 5%;
+                    bottom: 40.5%;
+                    left: 11.3%;
                     border-radius: 45px;
                 }
+
                 &:nth-of-type(3) {
                     width: 34%;
-                    height: 7%;
-                    bottom: 8%;
+                    height: 5%;
+                    bottom: 48.6%;
+                    right: 11.5%;
+                    border-radius: 45px;
+                }
+                &:nth-of-type(4) {
+                    width: 34%;
+                    height: 5%;
+                    bottom: 40.5%;
                     right: 11.5%;
                     border-radius: 45px;
                 }
