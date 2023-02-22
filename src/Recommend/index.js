@@ -14,11 +14,15 @@ import { Link, animateScroll } from 'react-scroll';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import Prev from '../component/Prev_page/index';
+import Top from '../component/top/Top';
 
 function Recommend() {
+    const [pnClick, setClick] = useState(1);
+
     return (
         <div className="reContainer">
-            <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/SunnyPoint.html">
+             <Top />
+            <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/MomPlan.html">
                 <Prev />
             </a>
             <div className="reContain">
@@ -29,18 +33,41 @@ function Recommend() {
             <div className="btnContainer">
                 <div className="btnContain">
                     <div className="btnIcons">
-                        <LazyLoadImage src={five} alt="" className="btnIcon" />
+                        <LazyLoadImage
+                            src={five}
+                            alt=""
+                            className={`btnIcon ${pnClick === 1 ? 'active' : ''}`}
+                            onClick={() => {
+                                setClick(1);
+                            }}
+                        />
                     </div>
                     <div className="btnIcons">
-                        <LazyLoadImage src={six} alt="" className="btnIcon" />
+                        <LazyLoadImage
+                            src={six}
+                            alt=""
+                            className={`btnIcon ${pnClick === 2 ? 'active' : ''}`}
+                            onClick={() => {
+                                setClick(2);
+                            }}
+                        />
                     </div>
 
                     <div className="btnIcons">
-                        <LazyLoadImage src={seven} alt="" className="btnIcon" />
+                        <LazyLoadImage
+                            src={seven}
+                            alt=""
+                            className={`btnIcon ${pnClick === 3 ? 'active' : ''}`}
+                            onClick={() => {
+                                setClick(3);
+                            }}
+                        />
                     </div>
                 </div>
             </div>
-            <LazyLoadImage src={two} alt="" className="btnIcon" />
+            <LazyLoadImage src={two} alt="" className={`btnIcon ${pnClick === 1 ? 'pageActive' : 'pageNone'}`} />
+            <LazyLoadImage src={three} alt="" className={`btnIcon ${pnClick === 2 ? 'pageActive' : 'pageNone'}`} />
+            <LazyLoadImage src={four} alt="" className={`btnIcon ${pnClick === 3 ? 'pageActive' : 'pageNone'}`} />
         </div>
     );
 }

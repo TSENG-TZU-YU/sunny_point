@@ -26,7 +26,16 @@
                 height: 100%;
                 object-fit: contain;
             }
+            .active {
+                background: rgb(38, 37, 141);
+            }
         }
+    }
+    .pageActive {
+        display: block;
+    }
+    .pageNone {
+        display: none;
     }
 }
 

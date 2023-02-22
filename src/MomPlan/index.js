@@ -20,13 +20,13 @@ function MomPlan() {
             <div className="qaContain">
                 <div className="imageContainerQa one">
                     <LazyLoadImage src={one} alt="" />
-                    <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/Howapply.html" alt="/">
+                    <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/HowToBe.html" alt="/">
                         {' '}
                     </a>
                     <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/Howapply.html" alt="/">
                         {' '}
                     </a>
-                    <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/Howopen.html" alt="/">
+                    <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/Recommend" alt="/">
                         {' '}
                     </a>
                     <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/Howopen.html" alt="/">
