@@ -19,8 +19,8 @@ import GroupBuying from './GroupBuying';
 import Recommend from './Recommend';
 
 function App() {
-    return <Recommend />;
-    
+    return <Header />;
+
 }
 
 export default App;
