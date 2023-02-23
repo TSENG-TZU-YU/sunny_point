@@ -184,7 +184,13 @@
     text-align: justify;
     word-break: break-all;
     .five {
-        height: 110vh;
+     
+        @media only screen and (max-width: 576px) {
+            height: 120vh;
+        }
+        @media only screen and (min-width: 576px) {
+            height: 105vh;
+        }
     }
     nav {
         position: absolute;
@@ -299,7 +305,7 @@
             margin-top: 10px;
             .text {
                 color: white;
-                font-size: clamp(18px, 30px, 2vw);
+                font-size: clamp(16px, 30px, 2vw);
                 margin-bottom: 8px;
                 white-space: nowrap;
             }

@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import './app.scss';
-import top from '../assets/one/點數活動頁5-01.png';
+import top from '../assets/one/點數活動頁5-01.jpg';
 import topStar from '../assets/one/點數活動頁5-27.png';
 import one from '../assets/one/點數活動頁5-31.png';
 import one_app from '../assets/one/點數活動頁5-03.png';
 import one_circle1 from '../assets/one/點數活動頁5-34.png';
 import one_circle2 from '../assets/one/點數活動頁5-33.png';
 import one_circle3 from '../assets/one/點數活動頁5-32.png';
-import two from '../assets/one/點數活動頁5-05.png';
+import two from '../assets/one/點數活動頁5-05.jpg';
 import three from '../assets/one/點數活動頁5-06.png';
 import four from '../assets/one/點數活動頁5-07.png';
 import five from '../assets/one/SunnyPoint大進擊-32_04.png';

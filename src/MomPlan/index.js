@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './app.scss';
 import { TiArrowSortedDown } from 'react-icons/ti';
 
-import one from '../assets/mom/團爸團媽養成計劃-01_01.jpg';
+import one from '../assets/mom/團爸團媽養成計劃-01_01.gif';
 import two from '../assets/mom/團爸團媽養成計劃-01_02.jpg';
 import qa1 from '../assets/one/SunnyPoint大進擊-32_04.png';
 import qa2 from '../assets/one/SunnyPoint大進擊2-31.png';
@@ -33,7 +33,7 @@ function MomPlan() {
                     <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/Howapply.html" alt="/">
                         {' '}
                     </a>
-                    <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/Recommend" alt="/">
+                    <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/Recommend.html" alt="/">
                         {' '}
                     </a>
                     <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/Howopen.html" alt="/">

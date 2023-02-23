@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './app.scss';
 
-import one from '../assets/eight/點數活動頁5-26.png';
+import one from '../assets/eight/點數活動頁5-26.jpg';
 import Prev from '../component/Prev_page/index';
 
 import { Link, animateScroll } from 'react-scroll';
