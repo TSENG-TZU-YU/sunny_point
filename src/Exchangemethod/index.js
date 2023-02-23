@@ -9,8 +9,8 @@ import top1 from '../assets/four/點數活動頁5-16.png';
 import top2 from '../assets/four/點數活動頁5-17.png';
 import top3 from '../assets/four/點數活動頁5-18.png';
 import top4 from '../assets/four/點數活動頁4-1-09.png';
-import top5 from '../assets/four/點數活動頁5-20.png';
-import top6 from '../assets/four/點數活動頁5-21.png';
+import top5 from '../assets/four/點數活動頁4-14-14.png';
+import top6 from '../assets/four/點數活動頁4-14-15.png';
 import top7 from '../assets/four/點數活動頁4-10-10.png';
 
 function Exchangemethod() {
