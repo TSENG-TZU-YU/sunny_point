@@ -13,3 +13,9 @@
     box-shadow: #105249 1px 4px;
     font-size: clamp(12px, 1vw, 2vw);
 }
+
+@media screen and (max-width: 768px) {
+    .prev {
+        z-index: 5;
+    }
+}
