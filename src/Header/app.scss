@@ -181,8 +181,10 @@
 .imageContainer {
     width: 100vw;
     position: relative;
+    text-align: justify;
+    word-break: break-all;
     .five {
-        height: 105vh;
+        height: 110vh;
     }
     nav {
         position: absolute;
@@ -297,7 +299,7 @@
             margin-top: 10px;
             .text {
                 color: white;
-                font-size: 2vw;
+                font-size: clamp(18px, 30px, 2vw);
                 margin-bottom: 8px;
                 white-space: nowrap;
             }

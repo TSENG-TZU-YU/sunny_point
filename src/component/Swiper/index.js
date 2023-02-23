@@ -39,29 +39,14 @@ const SlideContainer = () => {
             pagination={{ clickable: true }}
             loop={true}
             className="swiper-bar"
-            style={{width:'90%'}}
-            // effect={'coverflow'}
-            // grabCursor={true}
-            // centeredSlides={true}
-            // slidesPerView={'auto'}
-            // coverflowEffect={{
-            //     rotate: 50,
-            //     stretch: 0,
-            //     depth: 100,
-            //     modifier: 1,
-            //     slideShadows: true,
-            // }}
-            // pagination={true}
-            // loop={true}
-            // modules={[EffectCoverflow, Pagination]}
-            // className="mySwiper"
+            style={{ width: '90%' }}
         >
             {arr.map((item, index) => {
                 const { img, a } = item;
                 return (
                     <div key={index}>
                         <SwiperSlide key={index}>
-                            <img  src={img} alt="" />
+                            <img src={img} alt="" className="swiperImg" />
                             <a href={a}>{''}</a>
                         </SwiperSlide>
                     </div>

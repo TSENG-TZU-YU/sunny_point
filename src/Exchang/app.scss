@@ -84,8 +84,14 @@
                     &:nth-of-type(1) {
                         width: 69%;
                         height: 13%;
-                        top: 78%;
-                        // bottom: 15%;
+
+                        @media only screen and (max-width: 576px) {
+                            top: 67%;
+                        }
+                        @media only screen and (min-width: 576px) {
+                            top: 75%;
+                        }
+
                         left: 12.6%;
                         border-radius: 45px;
                     }
@@ -103,7 +109,7 @@
                     bottom: 2%;
                     right: 39.5%;
                     border-radius: 45px;
-                    z-index: 10;
+                    // z-index: 10;
                 }
             }
         }

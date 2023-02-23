@@ -35,7 +35,7 @@ function Header() {
             </a>
             <Top />
             <div className={show ? 'fixed' : 'fixed fixedActive'}>
-                <div onClick={handleShow('hide')} className="fixedItem" >
+                <div onClick={handleShow('hide')} className="fixedItem">
                     <LazyLoadImage className="top" src={topStar} alt="" />
                     Sunny
                     <br />
@@ -171,7 +171,18 @@ function Header() {
                                 </p>
                             </div>
                         </div>
-
+                        <div className="pointBox">
+                            <h4 className="text">Q2.如何成為「Sunny Life賞利點」會員</h4>
+                            <div className="containBox">
+                                <TiArrowSortedDown className="icon" size={30} />
+                                {/* <h3 className="icon"  size={30}>▼</h3> */}
+                                <p>
+                                    只要登入陽信商店街網站https://www.sunnygo.com.tw或是下載陽信Sunny購APP註冊成為會員，可同時擁有陽信商店街「Sunny
+                                    Go」與「Sunny
+                                    Life賞利點」的會員資格。新會員註冊選擇手機綁定即贈送100點獎勵(使用期限90天)
+                                </p>
+                            </div>
+                        </div>
                         <div className="pointBox">
                             <h4 className="text">Q3.成為「Sunny Life賞利點」會員的好處</h4>
                             <div className="containBox">
@@ -196,6 +207,20 @@ function Header() {
                                 </p>
                             </div>
                         </div>
+                    </div>
+
+                    <div className="right">
+                        <div className="pointBox">
+                            <h4 className="text">Q4.如何獲得「Sunny Life賞利點」</h4>
+                            <div className="containBox">
+                                <TiArrowSortedDown className="icon" size={30} />
+                                <p>
+                                    1.參加陽信銀行及其關係企業提供的金融服務指定任務，例如辦理開戶並開通網路銀行、信用卡新戶首刷、開通網銀APP、申辦貸款、期貨下單等等。(詳細活動內容以陽信銀行與其關係企業官網公告為主)
+                                </p>
+                                <p>2.經常到陽信商店街網路購物獲得1%點數回饋以及不定期的促銷贈點</p>
+                                <p>3.前往「Sunny Life賞利點」生活圈共享伙伴指定店家消費集點(陸續開放中)</p>
+                            </div>
+                        </div>
                         <div className="pointBox">
                             <h4 className="text">Q5.「Sunny Life賞利點」使用提醒</h4>
                             <div className="containBox">
@@ -213,32 +238,6 @@ function Header() {
                                     4.如對「Sunny
                                     Life賞利點」有任何的疑問，可直接E-mail至servicevip@sunnygo.com.tw或是在「連絡我們」留下您的問題https://www.sunnygo.com.tw/sunnygo/index.php?action=contact，將由專人協助您排除問題。
                                 </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="right">
-                        <div className="pointBox">
-                            <h4 className="text">Q2.如何成為「Sunny Life賞利點」會員</h4>
-                            <div className="containBox">
-                                <TiArrowSortedDown className="icon" size={30} />
-                                {/* <h3 className="icon"  size={30}>▼</h3> */}
-                                <p>
-                                    只要登入陽信商店街網站https://www.sunnygo.com.tw或是下載陽信Sunny購APP註冊成為會員，可同時擁有陽信商店街「Sunny
-                                    Go」與「Sunny
-                                    Life賞利點」的會員資格。新會員註冊選擇手機綁定即贈送100點獎勵(使用期限90天)
-                                </p>
-                            </div>
-                        </div>
-                        <div className="pointBox">
-                            <h4 className="text">Q4.如何獲得「Sunny Life賞利點</h4>
-                            <div className="containBox">
-                                <TiArrowSortedDown className="icon" size={30} />
-                                <p>
-                                    1.參加陽信銀行及其關係企業提供的金融服務指定任務，例如辦理開戶並開通網路銀行、信用卡新戶首刷、開通網銀APP、申辦貸款、期貨下單等等。(詳細活動內容以陽信銀行與其關係企業官網公告為主)
-                                </p>
-                                <p>2.經常到陽信商店街網路購物獲得1%點數回饋以及不定期的促銷贈點</p>
-                                <p>3.前往「Sunny Life賞利點」生活圈共享伙伴指定店家消費集點(陸續開放中)</p>
                             </div>
                         </div>
                     </div>
