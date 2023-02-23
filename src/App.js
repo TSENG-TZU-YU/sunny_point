@@ -19,8 +19,10 @@ import GroupBuying from './GroupBuying';
 import Recommend from './Recommend';
 
 function App() {
-    return <Search />;
-
+    return <GroupBuying />;
 }
 
 export default App;
+
+
+// 特約店家消費折抵 賞利點綁定嘟嘟房停車
