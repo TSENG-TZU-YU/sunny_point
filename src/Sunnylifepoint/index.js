@@ -5,9 +5,6 @@ import Top from '../component/top/Top';
 import Prev from '../component/Prev_page/index';
 import top1 from '../assets/six/點數活動頁5-24.png';
 import top2 from '../assets/six/點數活動頁5-25.png';
-import top3 from '../assets/six/點數活動頁5-28.png';
-import top4 from '../assets/six/點數活動頁5-29.png';
-import top5 from '../assets/six/點數活動頁5-30.png';
 
 function Sunnylifepoint() {
     return (
@@ -16,18 +13,18 @@ function Sunnylifepoint() {
             <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/SunnyPoint.html">
                 <Prev />
             </a>
-
+            {/* 特約店家消費折抵  賞利點綁定嘟嘟房停車 */}
             <div className="onePage">
                 <div className="click">
                     <a href="#one">
-                        <img src={top3} alt="點數活動頁" className="clickBtn" />
+                        <div className="clickBtn">特約店家消費折抵</div>
                     </a>
                     <a href="#two">
-                        <img src={top4} alt="點數活動頁" className="clickBtn" />
+                        <div className="clickBtn">賞利點綁定嘟嘟房停車</div>
                     </a>
-                    <a href="#three">
-                        <img src={top5} alt="點數活動頁" className="clickBtn" />
-                    </a>
+                    {/* <a href="#three">
+                        <img src={top5} alt="點數活動頁" className="clickB" />
+                    </a> */}
                 </div>
             </div>
             <div className="twoTo">

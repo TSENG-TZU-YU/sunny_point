@@ -14,7 +14,7 @@ function Howapply() {
             <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/MomPlan.html">
                 <Prev />
             </a>
-            <div className="momOne">
+            <div className={`momOne ${down ? '' : 'marginB'}`}>
                 <img src={top1} alt="/" />
                 <div
                     className="down"

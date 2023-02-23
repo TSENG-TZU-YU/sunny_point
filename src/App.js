@@ -19,7 +19,7 @@ import GroupBuying from './GroupBuying';
 import Recommend from './Recommend';
 
 function App() {
-    return <Search />;
+    return <Exchangemethod />;
 }
 
 export default App;

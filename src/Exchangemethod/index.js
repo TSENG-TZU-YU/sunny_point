@@ -26,8 +26,8 @@ function Exchangemethod() {
 
     window.addEventListener('scroll', () => {
         let scrollNow = window.scrollY;
-        // console.log('object', scrollNow);
-        scrollNow + 5 > scrollHeight ? setScrollDown(true) : setScrollDown(false);
+        // console.log('object', scrollNow + 5);
+        scrollNow + 5 >= scrollHeight ? setScrollDown(true) : setScrollDown(false);
         setLoading(!loading);
     });
     return (

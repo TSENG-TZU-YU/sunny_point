@@ -8,10 +8,10 @@
         padding-top: 35px;
         background: #3683cb;
         position: relative;
-        
+
         .click {
             max-width: 90%;
-            margin-bottom: 5px;
+            margin-bottom: 4px;
         }
         .clickBtn-1 {
             position: absolute;
@@ -59,27 +59,29 @@
             .scroll-1,
             .scroll-2,
             .scroll-3 {
-                // background: #eee;
+                background: #fff;
                 border-radius: 100px;
                 width: clamp(90px, 26vw, 320px);
                 height: clamp(18px, 5vw, 60px);
             }
             .nowClick {
-                background: #eee;
+                background: #fff;
                 border-radius: 100px;
                 width: clamp(90px, 26vw, 320px);
                 height: clamp(18px, 5vw, 60px);
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                &:hover {
-                    background: rgb(251, 235, 78);
-                }
+                border: 10px solid #eee;
+
+                // &:hover {
+                //     background: rgb(251, 235, 78);
+                // }
             }
             .onClick {
                 border-radius: 100px;
-                background: rgb(251, 235, 78);
-              
+                // background: rgb(251, 235, 78);
+                border: 10px solid #fbeb4e;
             }
         }
     }
@@ -131,3 +133,28 @@
     }
 }
 
+@media screen and (max-width: 1000px) {
+    .page4 {
+        .scrollBar {
+            .scroll {
+                // background: lightcoral;
+                width: 90%;
+                top: 2px;
+                .scroll-1,
+                .scroll-2,
+                .scroll-3 {
+                    width: clamp(80px, 26vw, 320px);
+                    height: clamp(18px, 5vw, 60px);
+                }
+                .nowClick {
+                    width: clamp(80px, 26vw, 320px);
+                    height: clamp(18px, 5vw, 60px);
+                    border: 5px solid #eee;
+                }
+                .onClick {
+                    border: 5px solid #fbeb4e;
+                }
+            }
+        }
+    }
+}

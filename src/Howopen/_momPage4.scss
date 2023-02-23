@@ -1,7 +1,6 @@
 .mompage4 {
     .momFour {
         position: relative;
-        margin-bottom: -20px;
         .down {
             position: absolute;
             bottom: 9%;
@@ -13,6 +12,19 @@
             cursor: pointer;
             // background: rgba(240, 128, 128, 0.636);
         }
+        .toOpen {
+            position: absolute;
+            bottom: 10.5%;
+            right: 8%;
+            width: clamp(50px, 14vw, 210px);
+            height: clamp(20px, 5vw, 65px);
+            border-radius: 30px;
+            cursor: pointer;
+            // background: rgba(240, 128, 128, 0.636);
+        }
+    }
+    .marginB {
+        margin-bottom: -20px;
     }
     .expandUp {
         opacity: 0;
