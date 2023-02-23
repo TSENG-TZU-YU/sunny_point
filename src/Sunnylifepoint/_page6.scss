@@ -3,7 +3,7 @@ html {
 }
 .page6 {
     position: relative;
-
+    background: #a3cfff;
     .onePage {
         display: flex;
         justify-content: center;
@@ -16,7 +16,7 @@ html {
             width: 100%;
             display: flex;
             align-items: center;
-            justify-content:space-evenly ;
+            justify-content: space-evenly;
             .clickBtn {
                 width: clamp(180px, 28vw, 370px);
                 height: clamp(25px, 4vw, 60px);

@@ -24,7 +24,7 @@ function Howapply() {
                 ></div>
             </div>
 
-            <img src={top2} alt="/" className={`${down ? 'expandDown' : 'expandUp'}`} />
+            <img src={top2} alt="/" className={`marageT ${ down ? 'expandDown' : 'expandUp'}`} />
         </div>
     );
 }
