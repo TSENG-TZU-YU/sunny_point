@@ -33,9 +33,11 @@ function Exchangemethod() {
     return (
         <div className="page4" id="#top">
             <Top />
-            <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/Exchang.html">
-                <Prev />
-            </a>
+            <div className={`${scrollDown ? 'non' : ''}`}>
+                <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/Exchang.html">
+                    <Prev />
+                </a>
+            </div>
 
             <div className={`onePage`} ref={scrollRef}>
                 <img src={top7} alt="點數活動頁" className="click" />
