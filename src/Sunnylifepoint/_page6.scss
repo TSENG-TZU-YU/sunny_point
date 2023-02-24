@@ -4,9 +4,6 @@ html {
 .page6 {
     position: relative;
     background: #a3cfff;
-    .toOne {
-        // margin-top: -4px;
-    }
     .onePage {
         display: flex;
         justify-content: center;
@@ -21,7 +18,7 @@ html {
             justify-content: space-evenly;
             // background: lightcoral;
             position: fixed;
-            top: 2px;
+            top: 6px;
             z-index: 30;
             .cl1 {
                 border: 10px solid #eee;
@@ -49,6 +46,21 @@ html {
             //     z-index: 10;
             // }
         }
+        .pre {
+            position: fixed;
+            display: flex;
+            align-items: center;
+            z-index: 50;
+            right: 10px;
+            top: 10px;
+            padding: 0.3% 1%;
+            background: #3aa298;
+            border: none;
+            border-radius: 16px;
+            color: white;
+            box-shadow: #105249 1px 4px;
+            font-size: clamp(12px, 1vw, 2vw);
+        }
     }
     .twoTo {
         position: relative;
@@ -70,8 +82,11 @@ html {
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 650px) {
     .page6 {
+        .none {
+           display: none;
+        }
         .onePage {
             .click {
                 .cl1 {
@@ -80,6 +95,10 @@ html {
                 .isClick {
                     border: 5px solid #fbeb4e;
                 }
+            }
+            .pre {
+                right: 2%;
+                top: 40px;
             }
         }
     }
