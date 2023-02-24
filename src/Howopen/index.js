@@ -26,8 +26,16 @@ function Howopen() {
                     {''}
                 </a>
             </div>
-
-            <img src={top2} alt="/" className={`${down ? 'expandDown' : 'expandUp'}`} />
+            <div className="toOpen2">
+                <img src={top2} alt="/" className={` ${down ? 'expandDown' : 'expandUp'}`} />
+                {down ? (
+                    <a href="https://www.sunnygo.com.tw/web-front/ReturnRefundPage/OpenGroupCommodity" alt="/">
+                        {''}
+                    </a>
+                ) : (
+                    ''
+                )}
+            </div>
         </div>
     );
 }

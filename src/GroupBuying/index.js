@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './app.scss';
 
-import one from '../assets/mom/0221如何成為團媽頁面-09.jpg';
+// import one from '../assets/mom/0221如何成為團媽頁面-09.jpg';
 
 import { Link, animateScroll } from 'react-scroll';
 
@@ -20,7 +20,8 @@ function Mom_page3() {
             </a>
             <div className="gbContain">
                 <div className="imageContainer1 ">
-                    <LazyLoadImage src={one} alt="" />
+                    {/* <LazyLoadImage src={one} alt="" /> */}
+                    <LazyLoadImage src='images/0221如何成為團媽頁面-09.jpg' alt="" />
                     <a
                         className="one"
                         href="https://www.sunnygo.com.tw/static_custom/sunny_point/SunnyPoint.html"

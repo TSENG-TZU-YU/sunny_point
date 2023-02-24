@@ -40,13 +40,13 @@
         border-radius: 16px;
         color: white;
         box-shadow: #105249 1px 4px;
-       
+
         .apply {
             display: flex;
             align-items: center;
             font-size: clamp(12px, 1vw, 2vw);
         }
-        .applyText{
+        .applyText {
             font-size: clamp(10px, 12px, 1vw);
         }
     }
@@ -55,7 +55,7 @@
         height: 105vh;
     }
     .qaContain {
-        background-color: #68B7D8;
+        background-color: #68b7d8;
         .one {
             position: relative;
             a {
@@ -93,6 +93,13 @@
                     bottom: 40.5%;
                     right: 11.5%;
                     border-radius: 45px;
+                }
+                &:nth-of-type(5) {
+                    width: 14%;
+                    height: 3%;
+                    bottom: 61.8%;
+                    right: 25%;
+           
                 }
             }
         }

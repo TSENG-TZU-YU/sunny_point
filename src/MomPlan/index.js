@@ -39,6 +39,9 @@ function MomPlan() {
                     <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/Howopen.html" alt="/">
                         {' '}
                     </a>
+                    <a href="https://www.sunnygo.com.tw/web-front/ReturnRefundPage/OpenGroupCommodity" alt="/">
+                        {' '}
+                    </a>
                 </div>
                 <div className="imageContainerQa ">
                     <LazyLoadImage src={two} alt="" />
