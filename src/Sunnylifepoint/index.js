@@ -16,12 +16,10 @@ function Sunnylifepoint() {
     let scrollHeight = '';
     useEffect(() => {
         scrollHeight = scrollRef.current.offsetHeight;
-        // console.log(scrollHeight);
     }, [loading]);
 
     window.addEventListener('scroll', () => {
         let scrollNow = window.scrollY;
-        // console.log('object', scrollNow + 5);
         scrollNow + 5 >= scrollHeight ? setScrollDown(true) : setScrollDown(false);
         setLoading(!loading);
     });
@@ -45,10 +43,12 @@ function Sunnylifepoint() {
                     {scrollDown ? (
                         ''
                     ) : (
-                        <div className="pre">
-                            上一頁
-                            <IoIosArrowForward />
-                        </div>
+                        <a href="https://www.sunnygo.com.tw/static_custom/sunny_point/SunnyPoint.html">
+                            <div className="pre">
+                                上一頁
+                                <IoIosArrowForward />
+                            </div>
+                        </a>
                     )}
 
                     {/* <a href="#three">
@@ -56,7 +56,7 @@ function Sunnylifepoint() {
                     </a> */}
                 </div>
             </div>
-            <div className="twoTo"  ref={scrollRef}>
+            <div className="twoTo" ref={scrollRef}>
                 <img src={top1} alt="點數活動頁" id="one" className="toOne" />
                 <a href="https://www.sunnygo.com.tw/static_custom/11m_active/cooperative.html" alt="/" className="to">
                     {''}
